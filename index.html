@@ -9,6 +9,7 @@
 	<meta name="keywords" content="" />
 	<link rel="icon" href="assets/img/favicon.png">
 	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
@@ -132,7 +133,7 @@
 
 		<section class="about-us-section">
 			<div  class="container">
-				<div class="section-title text-center">
+				<div class="section-title text-center" data-aos="fade-up">
 					<h2>Stop Dreaming of a better career <br> Dive In <span>Today</span></h2>
 					<p class="mb-5">Learn from Experts with Real-World Experience in Web and Industrial Technologies. Learn Through Applicative Real-life Projects Developed by Industry Experts.</p>
 				</div><!--section-title end-->
@@ -728,8 +729,14 @@
 
 	</div>
 
+	<script>
+		AOS.init({
+      offset: 100,
+      duration: 1000,
+    });
+	</script>
 
-
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/isotope.js"></script>
