@@ -2631,6 +2631,8 @@ footer .bottom-footer .social-links {
 .class-gallery-section h3 {
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
 }
 
 .class-gallery-section p {
@@ -2668,7 +2670,7 @@ footer .bottom-footer .social-links {
     /* background-color: #000d; */
     display: inline-block!important;
     border-radius: 0px;
- 
+    font-weight: bold;
     color: #000;
     border: none;
     font-family: 'Poppins', sans-serif;
@@ -2729,10 +2731,11 @@ footer .bottom-footer .social-links {
     margin-bottom: 0;
 }
 .class-sidebar {
-    position: relative;
+    position: absolute;
     top: -443px;
-    left: 50px;
-    max-width: 293px;
+    left: 150px;
+    max-width: 403px;
+    width: 300px;
     margin-left: auto;
 }
 .class-sidebar .widget {
