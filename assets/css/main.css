@@ -1841,7 +1841,7 @@ footer .bottom-footer .social-links {
     padding-left: 90px;
 }
 .sidebar .widget {
-    margin-bottom: 40px;
+    
 }
 .sidebar .widget:last-child {
     margin-bottom: 0;
@@ -1875,7 +1875,7 @@ footer .bottom-footer .social-links {
     border-radius: 30px;
     text-align: center;
     padding: 10px 15px;
-    margin-bottom: 25px;
+    
 }
 .sidebar .widget-categories ul {
     padding: 0 20px;
@@ -2567,7 +2567,7 @@ footer .bottom-footer .social-links {
     padding-top: 9px;
 }
 .class-single-content {
-    max-width: 760px;
+    max-width: 790px;
 }
 .class-single-content h2 {
     color: #2b2b2b;
@@ -2615,25 +2615,74 @@ footer .bottom-footer .social-links {
 }
 
 
+.class-gallery-section {
+    /* background: #f4f0e2; */
+    background-image: url(/assets/img/background.png);
+    background-size: cover;
+    padding: 60px 50px 0px;
+}
+
+.class-gallery-section h1 {
+    font-size: 24px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.class-gallery-section h3 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.class-gallery-section p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 39px;
+}
+
 .class-gallery .tab-content {
-    border-top: 4px solid #ffffaa;
-    border-bottom: 4px solid #ffffaa;
     padding: 30px 0px;
 }
 
 .nav-tabs .nav-item {
-    width: calc(100% / 5);
+    border: none;  
+}
+
+.nav-tabs .nav-link:hover {
+    background: none;
+    color: white;
+    transition: 0s;
+}
+
+@media screen and (min-width: 750px) {
+    .nav-tabs .nav-item{
+        width: calc(120% / 6);
+    }
+    .nav-tabs .nav-link{
+        width: calc(110%);
+    }
 }
 
 .nav-tabs .nav-link {
-    width: calc(100%);
+    
     text-align: center;
-    background-color: #000d;
+    /* background-color: #000d; */
     display: inline-block!important;
     border-radius: 0px;
-    font-weight: bold;
-    line-height: 40px;
-    color: #ffffaa;
+ 
+    color: #000;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-tabs .nav-link:active {
+    border: none;
+}
+
+.nav-tabs {
+    background-color: #fefefe;
+    padding: 14px 18px;
+    box-shadow: -1px 9px 18px rgb(21 11 35 / 10%);
+    border-radius: 4px;
 }
 
 .class-single-content .class-gallery-img {
@@ -2687,7 +2736,7 @@ footer .bottom-footer .social-links {
     margin-left: auto;
 }
 .class-sidebar .widget {
-    margin-bottom: 30px;
+    
 }
 .class-sidebar .widget:last-child {
     margin-bottom: 0;
