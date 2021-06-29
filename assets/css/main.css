@@ -2620,11 +2620,14 @@ footer .bottom-footer .social-links {
     background-image: url(/assets/img/background.png);
     background-size: cover;
     padding: 60px 50px 0px;
+    position: relative;
+    bottom: 40px;
 }
 
 .class-gallery-section h1 {
     font-size: 24px;
     color: black;
+    font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -2641,6 +2644,25 @@ footer .bottom-footer .social-links {
     line-height: 39px;
 }
 
+.class-gallery-section  ul li .nav-link:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    background-color: #156788;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.class-gallery-section  ul li .active:before,
+.class-gallery-section  ul li .nav-link:hover:before {
+    opacity: 1;
+    visibility: visible;
+    width:100px;
+}
+
 .class-gallery .tab-content {
     padding: 30px 0px;
 }
@@ -2651,13 +2673,13 @@ footer .bottom-footer .social-links {
 
 .nav-tabs .nav-link:hover {
     background: none;
-    color: white;
-    transition: 0s;
+    color: rgb(192, 177, 177);
+    transition: 1s;
 }
 
 @media screen and (min-width: 750px) {
     .nav-tabs .nav-item{
-        width: calc(120% / 6);
+        width: calc(120% / 5);
     }
     .nav-tabs .nav-link{
         width: calc(110%);
@@ -2670,7 +2692,6 @@ footer .bottom-footer .social-links {
     /* background-color: #000d; */
     display: inline-block!important;
     border-radius: 0px;
-    font-weight: bold;
     color: #000;
     border: none;
     font-family: 'Poppins', sans-serif;
@@ -2682,7 +2703,7 @@ footer .bottom-footer .social-links {
 
 .nav-tabs {
     background-color: #fefefe;
-    padding: 14px 18px;
+    padding: 14px 10px;
     box-shadow: -1px 9px 18px rgb(21 11 35 / 10%);
     border-radius: 4px;
 }
