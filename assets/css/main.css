@@ -1224,9 +1224,8 @@ footer .bottom-footer .social-links {
     background-position: 100%;
     padding: 75px 0 145px;
 }
-.pager-section1 {
-    background: url(../img/bg\ 1.png);
-    height: 200px;
+.pager-section {
+    background: url(../img/pager-bg.png), #f2f7fd;
     background-repeat: no-repeat;
     background-position: 100%;
     padding: 75px 0 145px;
