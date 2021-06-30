@@ -2759,11 +2759,11 @@ footer .bottom-footer .social-links {
     margin-bottom: 0;
 }
 .class-sidebar {
-    position: absolute;
-    top: -343px;
-    left: 150px;
-    max-width: 403px;
-    width: 300px;
+    position: relative;
+    top: 80px;
+    left: 30px;
+    max-width: 703px;
+    width: 370px;
     margin-left: auto;
 }
 .class-sidebar .widget {
@@ -2773,9 +2773,11 @@ footer .bottom-footer .social-links {
     margin-bottom: 0;
 }
 .class-sidebar .widget-information {
-    background-color: #fff;
-    padding: 47px 20px 50px;
-    border-radius: 5px;
+    padding: 0px 20px 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 20px;
+    opacity: 1;
     
     
 }
@@ -2787,8 +2789,30 @@ footer .bottom-footer .social-links {
     border-radius: 0;
     border: none;
     padding: 1.0rem 1rem;
-    margin: 0px 0px 15px;
-    width: 250px;
+    margin: 0px 0px 10px;
+    width: 322px;
+    font-family: 'Poppins', sans-serif;
+    background: #E7EDF1 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+  }
+
+  .contact-head {
+    
+    
+    width: 348px;
+    margin-left: -22px;
+    margin-top: 105px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .contact-head h5 {
+    text-align: left;
+    font: normal normal bold 12/130px Poppins;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -2828,7 +2852,7 @@ footer .bottom-footer .social-links {
     font-style: italic;
 }
 .class-sidebar .widget-information .tech-info {
-    padding-top: 25px;
+    padding-top: 15px;
     text-align: center;
 }
 .class-sidebar .widget-information .tech-info .tech-tble {
@@ -3406,3 +3430,30 @@ border-radius: 50px;
 
 }
 
+
+.class-single-banner {
+    background: #1B212C 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.class-single-banner h1 {
+    text-align: left;
+letter-spacing: 0px;
+color: #FFFFFF;
+font-size: 44px;
+}
+
+.class-single-banner span {
+text-align: left;
+text-decoration: underline;
+letter-spacing: 0px;
+color: #EC3944;
+}
+
+.class-single-banner p {
+    text-align: left;
+font: normal normal 500 13px/22px Open Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
