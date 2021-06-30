@@ -3443,6 +3443,7 @@ border-radius: 50px;
 letter-spacing: 0px;
 color: #FFFFFF;
 font-size: 44px;
+font-weight: 500;
 }
 
 .class-single-banner span {
@@ -3454,7 +3455,7 @@ color: #EC3944;
 
 .class-single-banner p {
     text-align: left;
-font: normal normal 500 13px/22px Open Sans;
+font: normal normal 500 14px/23px Open Sans;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
