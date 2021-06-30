@@ -592,7 +592,7 @@ header .navigation-bar nav ul ul ul {
     line-height: 22.35px;
 }
 .about-us-section .abt-img {
-    background-image: url(../img/abt-bg.png);
+    /* background-image: url(../img/abt-bg.png); */
     background-repeat: no-repeat;
     background-position: 50%;
 }
@@ -637,7 +637,7 @@ header .navigation-bar nav ul ul ul {
 .sec-title > h2:before {
     content: "";
     position: absolute;
-    top: -40px;
+    top: 20px;
     left: -70px;
     width: 114px;
     height: 108px;
@@ -1222,10 +1222,11 @@ footer .bottom-footer .social-links {
     background: url(../img/pager-bg.png), #f2f7fd;
     background-repeat: no-repeat;
     background-position: 100%;
-    padding: 75px 0 85px;
+    padding: 75px 0 145px;
 }
+
 .pager-section.blog-version {
-    background-image: url(https://via.placeholder.com/1340x894);
+    
     padding: 169px 0 242px;
     position: relative;
     background-position: 50%;
@@ -2753,7 +2754,7 @@ footer .bottom-footer .social-links {
 }
 .class-sidebar {
     position: absolute;
-    top: -443px;
+    top: -343px;
     left: 150px;
     max-width: 403px;
     width: 300px;
@@ -2768,9 +2769,23 @@ footer .bottom-footer .social-links {
 .class-sidebar .widget-information {
     background-color: #fff;
     padding: 47px 20px 50px;
-    border: 2px solid #f9b493;
-    border-radius: 20px;
+    border-radius: 5px;
+    
+    
 }
+
+.contact-form input, .contact-form textarea, .contact-form .form-control:focus {
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.05);
+    color:  #000;
+    border-radius: 0;
+    border: none;
+    padding: 1.0rem 1rem;
+    margin: 0px 0px 15px;
+    width: 250px;
+    font-family: 'Poppins', sans-serif;
+  }
+
 .class-sidebar .widget-information .widget-title {
     color: #2b2b2b;
     font-size: 20px;
@@ -3269,12 +3284,12 @@ footer .bottom-footer .social-links {
     overflow: hidden;
     border-radius: 50%;
     color: #fff;
-    background-image: linear-gradient(180deg, #fdc830, #f37335);
+    background-color: #EC3944;
 }
 
 .back-to-top:hover {
     transition: 10s;
-    background-image: linear-gradient(210deg, #d4ac3e, #f37335);
+    background-color: #e7505a;
 }
 .bar-section{
     max-width: 1100px;
@@ -3332,6 +3347,28 @@ padding: 10px 40px 10px ;
     padding-bottom: 90px;
     margin-bottom: 50px;
 }
+.life-changing-experience1 {
+    opacity: 1;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    margin-bottom: 50px;
+}
+
+.life-changing-experience1 h2{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.life-changing-experience1 p {
+    font: normal normal normal 16px/27px Poppins;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+}
 
 
 .life-changing-experience h2{
@@ -3362,3 +3399,4 @@ color: white;
 border-radius: 50px;
 
 }
+
