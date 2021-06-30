@@ -2674,6 +2674,12 @@ footer .bottom-footer .social-links {
     padding: 30px 0px;
 }
 
+.tab-content span {
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+}
+
 .nav-tabs .nav-item {
     border: none;  
 }
