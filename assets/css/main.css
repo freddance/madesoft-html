@@ -3460,3 +3460,129 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
 }
+
+/* curriculum-card */
+
+.curriculum-card{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 20px;
+opacity: 1;
+max-width: 290px;
+padding: 20px 30px 70px;
+position: -webkit-sticky;
+position: sticky;
+top: 25px;
+}
+
+.curriculum h1 {
+   
+letter-spacing: 0px;
+opacity: 1;
+font-size: 35px;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+color: #000;
+}
+.curriculum h2 {
+    text-align: center;
+font: normal normal bold 20px/72px Poppins;
+letter-spacing: 0px;
+color: #2B2B2B;
+opacity: 1;
+}
+
+.curriculum p {
+font: normal normal 600 13px/22px Open Sans;
+letter-spacing: 0px;
+color: #2B2B2B;
+opacity: 1;
+}
+
+.curriculum-card a {
+    line-height: 45px;
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* split screen  */
+.split {
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+
+.split .screen {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    transition: 1s;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.split .screen:hover 
+{
+    flex-grow: 10;
+} 
+section .screen:nth-child(1) {
+    background: black;
+} 
+section .screen:nth-child(2) {
+    background: red;
+} 
+section .screen:nth-child(3) {
+    background: yellow;
+} 
+section .screen:nth-child(4) {
+    background: blue;
+} 
+
+section .screen .card_ {
+    max-width: 300px;
+    text-align: center;
+    transition: 0.5s;
+}
+section .screen .card_ .imgBx {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+section .screen .card_ .imgBx img{
+    max-width: 100%;
+}
+
+section .screen .card_ a {
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 100px;
+    background: #fff;
+    transition: 0.5s;
+    visibility: hidden;
+}
+
+section .screen .card_ a:hover ~ .content, 
+.content:hover {
+    opacity: 1;
+    visibility: visible;
+}
