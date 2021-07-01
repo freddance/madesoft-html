@@ -2652,7 +2652,7 @@ footer .bottom-footer .social-links {
 .class-gallery-section p {
     font-size: 14px!important;
     font-family: 'Poppins', sans-serif;
-    line-height: 39px;
+    line-height: 29px;
 }
 
 .class-gallery-section  ul li .nav-link:before {
@@ -3487,7 +3487,7 @@ opacity: 1;
 }
 
 
-.curriculum .icon_section .icon_check {
+.class-gallery-section .icon_check {
     background: #EC3944 0% 0% no-repeat padding-box;
     opacity: 1;
     padding: 6px 6px 6px;
