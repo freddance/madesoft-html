@@ -106,6 +106,9 @@ nav,
 section {
     display: block;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: Open Sans, sans-serif;
     color: #aeb4b6;
@@ -3479,8 +3482,10 @@ opacity: 1;
     padding: 20px 30px 70px;
     position: -webkit-sticky;
     position: sticky;
-    top: 25px;
+    top: 45px;
+    left: -50px;
 }
+
 
 .curriculum .icon_section .icon_check {
     background: #EC3944 0% 0% no-repeat padding-box;
@@ -3508,7 +3513,7 @@ opacity: 1;
 }
 
 .curriculum p {
-font: normal normal 600 13px/22px Open Sans;
+font: normal normal 600 16px/27px Open Sans;
 letter-spacing: 0px;
 color: #2B2B2B;
 opacity: 1;
@@ -3518,7 +3523,7 @@ opacity: 1;
     line-height: 45px;
     align-items: center;
     text-align: left;
-    font-size: 20px;
+    font-size: 17px;
     letter-spacing: 0px;
     color: #2B2B2B;
     opacity: 1;
