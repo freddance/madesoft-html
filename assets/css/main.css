@@ -2650,7 +2650,7 @@ footer .bottom-footer .social-links {
 }
 
 .class-gallery-section p {
-    font-size: 16px;
+    font-size: 14px!important;
     font-family: 'Poppins', sans-serif;
     line-height: 39px;
 }
@@ -3513,7 +3513,7 @@ opacity: 1;
 }
 
 .curriculum p {
-font: normal normal 600 16px/27px Open Sans;
+font: normal normal 600 17px/28px Open Sans;
 letter-spacing: 0px;
 color: #2B2B2B;
 opacity: 1;
