@@ -2629,6 +2629,7 @@ footer .bottom-footer .social-links {
     padding: 60px 50px 0px;
     position: relative;
     bottom: 40px;
+    margin-top: 100px;
 }
 
 .class-gallery-section h1 {
@@ -3481,8 +3482,16 @@ position: sticky;
 top: 25px;
 }
 
+.curriculum .icon_section .icon_check {
+    background: #EC3944 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 6px 6px 6px;
+    color: white;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
 .curriculum h1 {
-   
 letter-spacing: 0px;
 opacity: 1;
 font-size: 35px;
