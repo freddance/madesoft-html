@@ -3556,6 +3556,7 @@ opacity: 2;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    width: 200px;
 }
 
 .split .screen:hover 
@@ -3581,15 +3582,18 @@ section .screen .card_ {
     transition: 0.5s;
 }
 section .screen .card_ .imgBx {
-    width: 200px;
+    width: 250px;
     height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
+    position: relative;
+    top: 100px;
+    left: 6 0px;
     margin: 0 auto;
 }
 
 section .screen .card_ .imgBx img{
-    max-width: 100%;
+    max-width: 150%;
+    width: 160%;
+    height: 300px;
 }
 
 
