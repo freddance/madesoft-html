@@ -1,7 +1,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
 
@@ -109,8 +111,8 @@ section {
 html {
     scroll-behavior: smooth;
 }
+
 body {
-    font-family: Open Sans, sans-serif;
     color: #aeb4b6;
     font-size: 16px;
     font-weight: 400;
@@ -1548,7 +1550,7 @@ footer .bottom-footer .social-links {
 .schedule-page .nav-tabs li a {
     display: inline-block;
     border: 0;
-    height: 46px;
+    height: 42px;
     line-height: 46px;
     background-color: #fff;
     border-radius: 30px;
@@ -2645,14 +2647,15 @@ footer .bottom-footer .social-links {
 .class-gallery-section h3 {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     color: black;
 }
 
 .class-gallery-section p {
-    font-size: 14px!important;
-    font-family: 'Poppins', sans-serif;
-    line-height: 29px;
+    font-size: 13px!important;
+    font-family: 'Open Sans', sans-serif!important;
+    line-height: 20px!important;
+    font-weight: 400;
 }
 
 .class-gallery-section  ul li .nav-link:before {
@@ -2660,8 +2663,8 @@ footer .bottom-footer .social-links {
     position: absolute;
     bottom: 0;
     width: 0;
-    height: 5px;
-    background-color: #156788;
+    height: 3px;
+    background-color: #EC3944;
     opacity: 0;
     visibility: hidden;
     transition: all 0.4s ease-in-out;
@@ -2681,7 +2684,14 @@ footer .bottom-footer .social-links {
 .tab-content span {
     font-size: 30px;
     color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tab-content h6 {
+    color: #e7505a;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
 }
 
 .nav-tabs .nav-item {
@@ -2711,6 +2721,7 @@ footer .bottom-footer .social-links {
     border-radius: 0px;
     color: #000;
     border: none;
+    font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -2720,7 +2731,7 @@ footer .bottom-footer .social-links {
 
 .nav-tabs {
     background-color: #fefefe;
-    padding: 14px 10px;
+    padding: 3px 5px;
     box-shadow: -1px 9px 18px rgb(21 11 35 / 10%);
     border-radius: 4px;
 }
