@@ -3541,6 +3541,70 @@ opacity: 2;
     font-family: 'Poppins', sans-serif;
 }
 
+.tuition p  {
+font: normal normal normal 20px/30px Open Sans;
+letter-spacing: 0px;
+color: #2B2B2B;
+opacity: 1;
+}
+.Admissions .ptag  {
+font: normal normal normal 20px/30px Open Sans;
+letter-spacing: 0px;
+color: #2B2B2B;
+opacity: 1;
+}
+
+.table-borderless button {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 0px 15px;
+}
+
+/* .background {
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    position: relative;
+left: -50px;
+} */
+
+.table-borderless td,
+.table-borderless th {
+    border: 0!important;
+    margin: 0px 0px 80px;
+}
+.table-borderless tr td {
+    border: 0!important;
+    margin: 0px 0px 100px!important;
+}
+
+.table-borderless h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+letter-spacing: 0px;
+color: #2B2B2B;
+opacity: 1;
+position: relative;
+left: -10px;
+}
+
+
+.tuition h2 {
+    text-align: center;
+font: normal normal normal 34px/42px Poppins;
+letter-spacing: 0px;
+color: #2B2B2B;
+opacity: 1;
+}
+
+.Admissions h2 {
+    text-align: center;
+font: normal normal normal 34px/42px Poppins;
+letter-spacing: 0px;
+color: #2B2B2B;
+opacity: 1;
+}
+
+
 /* split screen  */
 .split {
     position: relative;
