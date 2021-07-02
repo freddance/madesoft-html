@@ -1224,13 +1224,13 @@ footer .bottom-footer .social-links {
     text-align: right;
 }
 .pager-section {
-    background: url(../img/pager-bg.png), #f2f7fd;
+    /* background: url(../img/pager-bg.png), #f2f7fd; */
     background-repeat: no-repeat;
     background-position: 100%;
     padding: 75px 0 145px;
 }
 .pager-section {
-    background: url(../img/pager-bg.png), #f2f7fd;
+    /* background: url(../img/pager-bg.png), #f2f7fd; */
     background-repeat: no-repeat;
     background-position: 100%;
     padding: 75px 0 145px;
@@ -3545,7 +3545,7 @@ opacity: 2;
 .split {
     position: relative;
     display: flex;
-    height: 100vh;
+    height: 90vh;
 }
 
 .split .screen {
@@ -3556,7 +3556,7 @@ opacity: 2;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 200px;
+    width: 190px;
 }
 
 .split .screen:hover 
@@ -3575,18 +3575,32 @@ section .screen:nth-child(3) {
 section .screen:nth-child(4) {
     background: blue;
 } 
+section .screen:nth-child(5) {
+    background: pink;
+} 
 
 section .screen .card_ {
     max-width: 300px;
     text-align: center;
     transition: 0.5s;
 }
+
+.screen .ptag {
+    font-size: 25px;
+    line-height: 34px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    position: relative;
+    bottom: 70px;
+}
+
 section .screen .card_ .imgBx {
     width: 250px;
     height: 200px;
     position: relative;
     top: 100px;
-    left: 6 0px;
+    left: -20px;
     margin: 0 auto;
 }
 
