@@ -3631,7 +3631,7 @@ font-weight: bold;
 
 .panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
     border: none;
-    border-bottom: none;
+    border-bottom: none!important;
     margin: 0px 0px 20px!important;
 }
 
