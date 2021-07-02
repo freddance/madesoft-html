@@ -3625,6 +3625,21 @@ font-weight: bold;
     font-weight: 300;
 }
 
+.panel-heading {
+    background-color: none!important;
+}
+
+.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+    border: none;
+    border-bottom: none;
+    margin: 0px 0px 20px!important;
+}
+
+.panel-heading a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
 
 /* split screen  */
 .split {
