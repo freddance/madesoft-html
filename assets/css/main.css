@@ -3430,8 +3430,9 @@ padding: 10px 40px 10px ;
 
 .about-bottom-background {
     position: relative;
-    bottom: 170px;
+    bottom: 165px;
     z-index: -1;
+    
 }
 
 .life-changing-experience {
@@ -3489,7 +3490,6 @@ border-radius: 50px;
 .class-single-bannerr{
     background: #1B212C 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
-    opacity: 0.85;
 }
 .class-single-bannerr h1 {
     text-align: left;
