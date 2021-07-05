@@ -229,6 +229,21 @@ p {
     border-radius: 30px;
     transition: all 0.4s ease-in-out;
 }
+.btn-default1 {
+    display: inline-block;
+    color: #fff;
+    font-size: 18.29px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+   
+    background: rgba(236, 57, 68) 0% 0% no-repeat padding-box!important;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 60px;
+    position: relative;
+    border-radius: 30px;
+    transition: all 0.4s ease-in-out;
+}
 .btn-default:hover {
     color: #fff;
     background-color: #f37335;
@@ -463,10 +478,10 @@ header .navigation-bar nav ul ul ul {
 .main-section .elements-bg {
     position: absolute;
     top: 0;
-    right: 0;
-    width: 536px;
-    height: 596px;
-    background-image: url(../img/elements.png);
+    right: 50px;
+    width: 136px;
+    height: 196px;
+    background-image: url(../img/circle_bg.png);
 }
 .main-section .main-title {
     color: #f37335;
@@ -1192,7 +1207,7 @@ footer .newsletter-textfield {
     margin-bottom: 0px;
     padding: 20px;
     border-radius: 9px;
-    font-family: 'Suisseintl webm', sans-serif;
+    font-family: Poppins, sans-serif;
     color: #a9a9a9;
     font-size: 16px;
 }
@@ -1205,6 +1220,7 @@ footer .w-input, .w-select {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333333;
+    font-family: Poppins, sans-serif;
     vertical-align: middle;
     background-color: #ffffff;
     border: 1px solid #cccccc;
@@ -1213,6 +1229,7 @@ footer .btn-sacademy {
     background-color: #EF4323 !important;
     color: #fff !important;
     border-color: #EF4323 !important;
+    font-family: Poppins, sans-serif;
 }
 footer .top-footer {
     padding-bottom: 59px;
@@ -1269,7 +1286,7 @@ footer .widget-links li a {
     display: block;
     color: #a9a9a9;
     font-size: 15px;
-    line-height: 20px;
+    line-height: 25px;
     font-weight: 400;
     font-family: Poppins, sans-serif;
 }
@@ -1458,7 +1475,7 @@ footer .bottom-footer .social-links {
     margin-bottom: 0;
 }
 .benifit-section {
-    padding: 50px 0 20px;
+    padding: 40px 0 0px;
 }
 .benifit-section .section-title h2 {
     margin-bottom: 18px;
