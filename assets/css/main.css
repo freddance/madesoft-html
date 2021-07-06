@@ -1199,7 +1199,7 @@ opacity: 0.97;
     transform: translateY(-50%);
 }
 footer {
-    background-color: #1b212c;
+    background: #000000 0% 0% no-repeat padding-box;
     padding: 119px 0 72px;
 }
 footer .newsletter-textfield {
