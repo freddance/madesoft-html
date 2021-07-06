@@ -677,7 +677,7 @@ header .navigation-bar nav ul ul ul {
     left: -70px;
     width: 114px;
     height: 108px;
-    background-image: url(../img/sec-bg.png);
+    
     background-repeat: no-repeat;
     z-index: -1;
 }
@@ -688,7 +688,7 @@ header .navigation-bar nav ul ul ul {
     left: -70px;
     width: 114px;
     height: 108px;
-    background-image: url(../img/sec-bg.png);
+   
     background-repeat: no-repeat;
     z-index: -1;
 }
@@ -711,8 +711,8 @@ header .navigation-bar nav ul ul ul {
     background-size: cover;
 }
 .classes-section1 {
-    padding-bottom: 100px;
-    margin-bottom: 100px;
+    padding-bottom: 80px!important;
+    margin-bottom: 0px!important;
     background: url(../img/Rectangle17.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -914,7 +914,7 @@ opacity: 0.97;
     font-weight: 700;
 }
 .course-section .find-course .course-img {
-    background-image: url(../img/abt-element.png);
+    
     background-repeat: no-repeat;
     background-position: 50%;
 }
@@ -3501,12 +3501,13 @@ padding: 10px 40px 10px ;
     background: #FCF5E8 0% 0% no-repeat padding-box;
     opacity: 1;
     padding-top: 60px;
-    padding-bottom: 90px;
-    margin-bottom: 150px;
+    padding-bottom: 100px;
+    
 }
 
 .life-changing-experience2 {
-  
+    position: relative;
+    top: 200px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
@@ -3550,11 +3551,11 @@ border-radius: 50px;
     opacity: 1;
 }
 .class-single-bannerr{
-    background: #1B212C 0% 0% no-repeat padding-box;
+    background: #000000 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
 }
 .class-single-bannerr-uni {
-    background: rgba(0, 0, 0, 0.85) 0% 0% no-repeat padding-box;
+    background: #000000 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
 }
 .class-single-bannerr-uni h1 {
@@ -3881,3 +3882,61 @@ section  a:hover ~ .content,
     opacity: 1;
     visibility: visible;
 }
+
+
+/* contact  */
+#contactWrapper input[type="date"], #contactWrapper input[type="email"], #contactWrapper input[type="number"], #contactWrapper input[type="password"], #contactWrapper input[type="search"], #contactWrapper input[type="tel"], #contactWrapper input[type="text"], #contactWrapper input[type="url"], #contactWrapper select, #contactWrapper textarea {
+	padding: 10px;
+	outline: none;
+    border: none;
+	margin: 0;
+	width: 100%;
+	max-width: 100%;
+	display: block;
+	margin-bottom: 0;
+	font-size: 13px;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+    font-family: 'Poppins', sans-serif;
+    border-width: 2px;
+    border-style: inset;
+    border-color: (rgb(118, 118, 118), rgb(133, 133, 133));
+}
+#contactform .column input[type="text"], #contactform .column input[type="email"] {
+    width: 100%;
+    margin: 0px 0px 20px;
+    
+}
+ 
+.column_attr  h5 {
+    font-size: 18px;
+    color: black;
+    line-height: 29px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.column h3 {
+    color: #EC3944;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+#contactform {
+    padding: 0px 0px 25px;
+    
+}
+
+
