@@ -1,234 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Shelly School HTML Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Shelly - Website" />
-    <meta name="author" content="merkulove">
-    <meta name="keywords" content="" />
-    <link rel="icon" href="assets/img/favicon.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+	<title>Shelly School HTML Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Shelly - Website" />
+	<meta name="author" content="merkulove">
+	<meta name="keywords" content="" />
+	<link rel="icon" href="assets/img/favicon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script> -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-
-
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	
+	
 </head>
 
 <style>
-    .side-content-main {
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border-radius: 10px;
-        opacity: 1;
-        height: 100%;
-    }
-    
-    .side-content-main h3 {
-        font: normal normal 600 18px/22px Poppins;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    }
-    
-    .side-content-main span {
-        text-align: center;
-        font: normal normal normal 15px/22px Open Sans;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    }
-    
-    .side-content-main .ptag {
-        text-align: left;
-        font: normal normal normal 15px/20px Open Sans;
-        letter-spacing: 0px;
-        color: #707070;
-        opacity: 1;
-    }
-    
-    .side-content-main {
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border-radius: 10px;
-        opacity: 1;
-        height: 100%;
-    }
-    
-    .side-content-main h3 {
-        font: normal normal 600 18px/22px Poppins;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    }
-    
-    .side-content-main span {
-        text-align: center;
-        font: normal normal normal 15px/22px Open Sans;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    }
-    
-    .side-content-main .ptag {
-        text-align: left;
-        font: normal normal normal 15px/20px Open Sans;
-        letter-spacing: 0px;
-        color: #707070;
-        opacity: 1;
-    }
+.side-content-main{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+height: 100%;
+
+}
+.side-content-main h3 {
+	
+font: normal normal 600 18px/22px Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.side-content-main span {
+	text-align: center;
+font: normal normal normal 15px/22px Open Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.side-content-main .ptag {
+	text-align: left;
+font: normal normal normal 15px/20px Open Sans;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
 </style>
 
 <body>
 
-    <div class="wrapper">
-
-        <header>
-            <div class="container">
-                <div class="header-content d-flex flex-wrap align-items-center">
-                    <img src="/assets/img/madesoftacademylogo.png" class="img-fluid d-block d-sm-none" alt="">
-                    <div class="menu-btn">
-                        <a href="#">
-                            <span class="bar1"></span>
-                            <span class="bar2"></span>
-                            <span class="bar3"></span>
-                        </a>
-                    </div>
-                    <!--menu-btn end-->
-                    <!--header-content end-->
-                    <div class="navigation-bar d-flex flex-wrap align-items-center">
-                        <nav>
-                            <ul class="d-flex">
-                                <a href="index.html" title="">
-                                    <img src="assets/img/madesoftacademylogo.png" alt="">
-                                </a>
-                                <div class="mt-3 " style=" position: relative; left: 100px;">
-                                    <li><a class=" nav-link_" href="index.html" title="">Home</a></li>
-                                    <li><a href="about.html" class="nav-link_" title="">About</a>
-
-                                    </li>
-                                    <li><a href="#" class="nav-link_ active" title="">Programs</a>
-                                        <ul class="ul">
-                                            <li><a href="full-stack-industrial.html" title="">Fullstack Industrial Automation and PLCs Programming</a></li>
-                                            <li><a href="full-stack-web.html" title="">Full Stack Web Programming &
+	<div class="wrapper">
+		
+		<header>
+			<div class="container">
+				<div class="header-content d-flex flex-wrap align-items-center">
+					<img src="/assets/img/madesoftacademylogo.png" class="img-fluid d-block d-sm-none" alt="">
+					<div class="menu-btn">
+						<a href="#">
+							<span class="bar1"></span>
+							<span class="bar2"></span>
+							<span class="bar3"></span>
+						</a>
+					</div><!--menu-btn end-->
+				<!--header-content end-->
+				<div class="navigation-bar d-flex flex-wrap align-items-center">
+					<nav>
+						<ul class="d-flex">
+							<a href="index.html" title="">
+								<img src="assets/img/madesoftacademylogo.png" alt=""> 
+							</a>
+						<div class="mt-3 " style=" position: relative; left: 100px;">
+							<li><a class=" nav-link_" href="index.html" title="">Home</a></li>
+							<li><a href="about.html" class="nav-link_" title="">About</a>
+								
+							</li>
+							<li><a href="#" class="nav-link_ active" title="">Programs</a>
+								<ul class="ul">
+									<li><a href="full-stack-industrial.html" title="">Fullstack Industrial Automation and PLCs Programming</a></li>
+									<li><a href="full-stack-web.html" title="">Full Stack Web Programming &
 										Development</a></li>
-                                            <li><a href="full-stack-tot.html" title="">Full Stack IOT & Embedded System
+									<li><a href="full-stack-tot.html" title="">Full Stack IOT & Embedded System
 										Development</a></li>
-                                            <li><a href="full-stack-mobile.html" title="">Full Stack Mobile Programming & Development</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="/forcompanies.html" class="nav-link_" title="">Companies</a>
-                                        <li><a href="foruniversity.html" title="">Universities</a>
-                                            <!-- <ul>
+									<li><a href="full-stack-mobile.html" title="">Full Stack Mobile Programming & Development</a></li>
+								</ul>
+							</li>
+							<li><a href="/forcompanies.html" class="nav-link_" title="">Companies</a>
+							<li><a href="foruniversity.html" title="">Universities</a>
+								<!-- <ul>
 									<li><a href="teacher-single.html" title="">Teacher Single</a></li>
 								</ul> -->
-                                        </li>
+							</li>
+							
+							<li><a href="contacts.html" class="nav-link_" title="">Contacts</a></li>
+						</div>
+						</ul>
+					</nav><!--nav end-->
+					<ul class="social-links ml-5 pl-5">
+						<li class="ml-5 pl-5"><a href="https://www.facebook.com/madesoftacademy" target="https://www.facebook.com/madesoftacademy" title=""><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/madesoftacademy/" target="https://www.linkedin.com/company/madesoftacademy/" title=""><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="https://www.instagram.com/madesoftacademy/" target="https://www.instagram.com/madesoftacademy/" title=""><i class="fab fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div><!--navigation-bar end-->
+			</div>
+		</header>
 
-                                        <li><a href="contacts.html" class="nav-link_" title="">Contacts</a></li>
-                                </div>
-                            </ul>
-                        </nav>
-                        <!--nav end-->
-                        <ul class="social-links ml-5 pl-5">
-                            <li class="ml-5 pl-5"><a href="https://www.facebook.com/madesoftacademy" target="https://www.facebook.com/madesoftacademy" title=""><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/madesoftacademy/" target="https://www.linkedin.com/company/madesoftacademy/" title=""><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="https://www.instagram.com/madesoftacademy/" target="https://www.instagram.com/madesoftacademy/" title=""><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!--navigation-bar end-->
-            </div>
-        </header>
-
-        <div class="responsive-menu">
-            <ul>
-                <li><a href="index.html" title="">Home</a></li>
-                <li><a href="about.html" title="">About</a></li>
-                <li><a href="#" class="nav-link_" title="">Programs</a>
-                    <ul class="ul">
-                        <li><a href="full-stack-industrial.html" title="">Fullstack Industrial Automation and PLCs Programming</a></li>
-                        <li><a href="full-stack-web.html" title="">Full Stack Web Programming &
+		<div class="responsive-menu">
+			<ul>
+				<li><a href="index.html" title="">Home</a></li>
+				<li><a href="about.html" title="">About</a></li>
+				<li><a href="#" class="nav-link_" title="">Programs</a>
+					<ul class="ul">
+						<li><a href="full-stack-industrial.html" title="">Fullstack Industrial Automation and PLCs Programming</a></li>
+						<li><a href="full-stack-web.html" title="">Full Stack Web Programming &
 							Development</a></li>
-                        <li><a href="full-stack-tot.html" title="">Full Stack IOT & Embedded System
+						<li><a href="full-stack-tot.html" title="">Full Stack IOT & Embedded System
 							Development</a></li>
-                        <li><a href="full-stack-mobile.html" title="">Full Stack Mobile Programming & Development</a></li>
-                    </ul>
-                </li>
-                <li><a href="forcompanies.html" title="">Companies</a></li>
-                <li><a href="foruniversity.html" title="">Universities</a></li>
-                <li><a href="contacts.html" title="">Contacts</a></li>
-            </ul>
-        </div>
-        <!--responsive-menu end-->
+						<li><a href="full-stack-mobile.html" title="">Full Stack Mobile Programming & Development</a></li>
+					</ul>
+				</li>
+				<li><a href="forcompanies.html" title="">Companies</a></li>
+				<li><a href="foruniversity.html" title="">Universities</a></li>
+				<li><a href="contacts.html" title="">Contacts</a></li>
+			</ul>
+		</div><!--responsive-menu end-->
 
-        <section class="class-single-banner">
-            <div class="container">
-                <div class="row justify-content-end">
-                    <div class="col-md-8 pt-5">
-                        <h1 class="pt-5 mt-5">Become a Competent Industrial Automation & PLCs <span>Programmer</span></h1>
-                        <p class="pt-4">A 6-month intensive industrial automation and PLC programming course for those interested in a career in industrial automation.Learn from experts with real-world experience in industrial automation and PLCs programing. Learn through
-                            applicable real-life projects developed by industry experts.</p>
-                        <div class="tech-info pb-5">
-                            <a href="https://madesoftacademy.com/fullstack_web_development.pdf" target="https://madesoftacademy.com/fullstack_web_development.pdf" title="" class="btn-default btn-default1 mt-5">Download Curriclum<i class="fa fa-long-arrow-alt-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="sidebar class-sidebar">
-                            <div class="widget widget-information contact-form wow fadeInUp" data-wow-duration="1000ms">
-                                <div class="contact-head  pb-1">
-                                    <h5 class="text-center pt-3 mb-3">Find the Madesoft course that fits you!</h5>
-                                </div>
-                                <form>
+		<section class="class-single-banner">	
+			<div class="container">	
+				<div class="row justify-content-end">
+					<div class="col-md-8 pt-5">
+						<h1 class="pt-5 mt-5">Become a Competent Industrial Automation & PLCs <span>Programmer</span></h1>
+						<p class="pt-4">A 6-month intensive industrial automation and PLC programming course for those interested in a career in industrial automation.Learn from experts with real-world experience in industrial automation and PLCs programing. Learn through applicable real-life projects developed by industry experts.</p>
+						<div class="tech-info pb-5">		
+							<a href="https://madesoftacademy.com/fullstack_web_development.pdf" target="https://madesoftacademy.com/fullstack_web_development.pdf" title="" class="btn-default btn-default1 mt-5">Download Curriclum<i class="fa fa-long-arrow-alt-right"></i></a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="sidebar class-sidebar">
+							<div class="widget widget-information contact-form wow fadeInUp" data-wow-duration="1000ms">
+								<div class="contact-head  pb-1">
+								<h5 class="text-center pt-3 mb-3">Find the Madesoft course that fits you!</h5>
+								</div>
+								<form>
+									
+									<input placeholder="Name"  type="password" name="user_password" id="password">
 
-                                    <input placeholder="Name" type="password" name="user_password" id="password">
+									  <input  placeholder="Email" name="user_email" type="email" id="full-name">
+								
+									  <input placeholder="Phone"  type="password" name="user_password" id="password">
 
-                                    <input placeholder="Email" name="user_email" type="email" id="full-name">
+									  <input placeholder="How did you hear about us"  type="password" name="user_password" id="password">
+					
+								  </form>
 
-                                    <input placeholder="Phone" type="password" name="user_password" id="password">
-
-                                    <input placeholder="How did you hear about us" type="password" name="user_password" id="password">
-
-                                </form>
-
-                                <div class="tech-info">
-
-                                    <a href="contacts.html" title="" class="btn-default">Enroll Now <i class="fa fa-long-arrow-alt-right"></i></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-    	</section>
-
-		<section class="course-header">
-			<div class="container mt-5 pt-5">
-				<div class="row text-center justify-content-center mt-3">
-					<div class="col-md-9">
-						<h2>This six-month, full-time course will help launch your Industrial Automation career.</h2>
-						<p class="pt-3">We have developed and perfected the best system to learn Industrial automation and PLCs programming. <br> Your journey will follow a tried and tested method that yields the best results.</p>
+								<div class="tech-info">
+									
+									<a href="contacts.html" title="" class="btn-default">Enroll Now <i class="fa fa-long-arrow-alt-right"></i></a>
+								</div>
+							</div>
+							
+							</div> 
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
+        <section class="course-header">
+            <div class="container mt-5 pt-5">
+                <div class="row text-center justify-content-center mt-3">
+                   <div class="col-md-9">
+                    <h2>This six-month, full-time course will help launch your Industrial Automation career.</h2>
+                    <p class="pt-3">We have developed and perfected the best system to learn Industrial automation and PLCs programming. <br> Your journey will follow a tried and tested method that yields the best results.</p>
+                   </div>
+                </div>
+            </div>
+        </section>
+		
 
 		<section class="mt-5 pt-5">
 			<div class="container course-page p-5">
 				<div class="row">
-					<h1 class="mb-5">Why should I learn Competitive Programming?</h1>
+					<h1 class="mb-5 pb-3">Why should I learn Competitive Programming?</h1>
 
 					<div class="col-md-3 course-sidebar">
 						<div onclick="setContent(1)" class="course-cover p-3">
@@ -249,325 +213,403 @@
 						<div onclick="setContent(6)" class="course-cover p-3">
 							<span>FAQ</span>
 						</div>
-						<div onclick="setContent(2)" class="course-cover p-3">
-							<span>Download Syllabus</span>
+						<div>
+							<button class="btn btn-sacademy1 mt-2" type="submit" value="Send">Download Syllabus</button>
+						</div>
+						<div>
+							<button class="btn btn-sacademy1 mt-2" type="submit" value="Send">Apply</button>
 						</div>
 					</div>
+
 
 					<div class="col-md-9">
 						<div class="side-content-main p-4">
 							<div class="ml-5 mt-3">
-								<div class="col-md-2">
-									<div class="d-flex ml-2">
-										<div>
-											<img src="/assets/img/time.png" width="22" class="img-fluid" alt="">
-										</div>
-										<h3 class="pl-1">6</h3>
-									</div>
-									<span>Months</span>
-								</div>
-								<div class="col-md-2">
-									<div class="d-flex">
-										<div>
-											<img src="/assets/img/live.png" width="22" class="img-fluid" alt="">
-										</div>
-										<h3 class="pl-1">Live</h3>
-									</div>
-									<span>Classes</span>
-								</div>
-								<div class="col-md-2 ml-3">
-									<div class="d-flex ml-2">
-										<div>
-											<img src="/assets/img/case-study.png" width="25" class="img-fluid" alt="">
-										</div>
-										<h3 class="pl-1">10</h3>
-									</div>
-									<span>Case studies</span>
-								</div>
-								<div class="col-md-2 ml-3">
-									<div class="d-flex ml-2">
-										<div>
-											<img src="/assets/img/assingment.png" width="20" class="img-fluid" alt="">
-										</div>
-										<h3 class="pl-1">15</h3>
-									</div>
-									<span>Assignments</span>
-								</div>
-								<div class="col-md-2 ml-3">
-									<div class="d-flex ml-2">
-										<div>
-											<img src="/assets/img/livemen.png" width="20" class="img-fluid" alt="">
-										</div>
-										<h3 class="pl-1">Live</h3>
-									</div>
-									<span>Mentorship</span>
-								</div>
-								<div class="col-md-2">
+						<div class="col-md-2">
+							<div class="d-flex ml-2">
+								<div>
+									<img src="/assets/img/time.png" width="22" class="img-fluid" alt="">
+								</div>	
+							 <h3 class="pl-1">6</h3>
+							 </div>
+							<span>Months</span>
+						</div>
+						<div class="col-md-2">
+							<div class="d-flex">
+								<div>
+									<img src="/assets/img/live.png" width="22" class="img-fluid" alt="">
+								</div>	
+							 <h3 class="pl-1">Live</h3>
+							 </div>
+							<span>Classes</span>
+						</div>
+						<div class="col-md-2 ml-3">
+						 <div class="d-flex ml-2">
+							<div>
+								<img src="/assets/img/case-study.png" width="25" class="img-fluid" alt="">
+							</div>	
+						 <h3 class="pl-1">10</h3>
+						 </div>
+							<span>Case studies</span>
+						</div>
+						<div class="col-md-2 ml-3">
+							<div class="d-flex ml-2">
+								<div>
+									<img src="/assets/img/assingment.png" width="20" class="img-fluid" alt="">
+								</div>	
+							 <h3 class="pl-1">15</h3>
+							 </div>
+							<span>Assignments</span>
+						</div>
+						<div class="col-md-2 ml-3">
+							<div class="d-flex ml-2">
+								<div>
+									<img src="/assets/img/livemen.png" width="20" class="img-fluid" alt="">
+								</div>	
+							 <h3 class="pl-1">Live</h3>
+							 </div>
+							<span>Mentorship</span>
+						</div>
+						<div class="col-md-2">
+							
+						</div>
+						</div>
 
+						<div class="side-content" id="content-1" data-content="1">
+						<div class="col-md-12">
+							<p class="pt-4 ptag">The goal of this 6 Months full-time program is to turn you into a fully operational Full Stack Industrial Automation & PLCs Programmer. Graduates of this course typically find employment as Automation or PLCs Engineer within a very short time frame.</p>
+							<p class="pt-4 mt-2 ptag">The lessons taught cover a diverse set of technologies which make for the perfect springboard onto the automation scene.</p>
+						</div>
+
+						<div class="row change-section">
+							<div class="d-flex mt-5 ml-3">
+								<div>
+									<h2 class="mb-3">Modules Covered</h2>
+								</div>
+								<div class="d-flex ml-auto mr-5">
+								<a href="" style="color: #EC3944;">Download Syllabus</a>
+								</div>
+							</div>
+							<div class="col-md-6  ml-3">
+								<div class="d-flex">
+									<div>
+										<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+									</div>
+										<p class="ml-3 pt-1">HMI</p>
+								</div>
+								<div class="d-flex">
+									<div>
+										<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+									</div>
+										<p class="ml-3 pt-1">Scada Systems</p>
+								</div>
+								<div class="d-flex">
+									<div>
+										<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+									</div>
+										<p class="ml-3 pt-1">Digital electronic</p>
+								</div>
+								<div class="d-flex">
+									<div>
+										<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+									</div>
+										<p class="ml-3 pt-1">PLCs programming</p>
+								</div>
+								<div class="d-flex">
+									<div>
+										<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+									</div>
+										<p class="ml-3 pt-1">Industrial Automations</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-12 pb-5">
+							<p class="pt-4">
+								Through an advanced curriculum and project-based structure, students learn today’s cutting-edge automation technologies. Become a ready-to-hire Automation or PLCs Engineer in just 6 Months. After 3 Months of Virtual Classroom training, you will spend 3 Months on Project Based Learning where you will learn the fundamentals of participating in a real life project – In addition you will learn using Studio 5000 for Allen Bradley Controllogix & Siemens Simatic TIA Portal for Siemens S7 PLCs
+							</p>
+						</div>
+
+						<div class="">
+							<div class="col-md-6 mb-4">
+								<div class="card">
+									<div class="card-header">
+										<div class="text-danger small text1">Next Batch</div>
+										<div class="text-primary text2">September 1st</div>
+									</div>
+									<div class="card-body mt-4">
+										<div class="dollar">
+											$800 <span>or</span> <span class="span2">#400,000</span>
+										</div>
+									</div>
+									<h1 class="ml-4 mt-4 mb-5">Proceed to <span class="apply" style="
+										text-align: center;
+										font-family: 'Poppins', sans-serif;
+										font-weight: 500;
+										font-size: 16px;
+										letter-spacing: 0px;
+										color: #EC3944;">Apply</span></h1>
+								</div>
+							</div>
+							
+							<div class="col-md-6 mb-4">
+								<div class="card">
+									<div class="card-header">
+										<div class="text-danger small text1">Next Batch</div>
+										<div class="text-primary text2">September 1st</div>
+									</div>
+									<div class="card-body mt-4">
+										<div class="dollar">
+											$800 <span>or</span> <span class="span2">#400,000</span>
+										</div>
+									</div>
+									<h1 class="ml-4 mt-4 mb-5">Proceed to <span class="apply" style="
+										text-align: center;
+										font-family: 'Poppins', sans-serif;
+										font-weight: 500;
+										font-size: 16px;
+										letter-spacing: 0px;
+										color: #EC3944;">Apply</span></h1>
 								</div>
 							</div>
 
-							<div class="side-content" id="content-1" data-content="1">
-								<div class="col-md-12">
-									<p class="pt-4 ptag">The goal of this 6 Months full-time program is to turn you into a fully operational Full Stack Industrial Automation & PLCs Programmer. Graduates of this course typically find employment as Automation or PLCs Engineer within
-										a very short time frame.</p>
-									<p class="pt-4 mt-2 ptag">The lessons taught cover a diverse set of technologies which make for the perfect springboard onto the automation scene.</p>
-								</div>
-
-								<div class="row change-section">
-									<div class="d-flex mt-5 ml-3">
-										<div>
-											<h2 class="mb-3">Modules Covered</h2>
-										</div>
-										<div class="d-flex ml-auto mr-5">
-											<a href="" style="color: #EC3944;">Download Syllabus</a>
-										</div>
-									</div>
-									<div class="col-md-6  ml-3">
-										<div class="d-flex">
-											<div>
-												<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
-											</div>
-											<p class="ml-3 pt-1">HMI</p>
-										</div>
-										<div class="d-flex">
-											<div>
-												<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
-											</div>
-											<p class="ml-3 pt-1">Scada Systems</p>
-										</div>
-										<div class="d-flex">
-											<div>
-												<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
-											</div>
-											<p class="ml-3 pt-1">Digital electronic</p>
-										</div>
-										<div class="d-flex">
-											<div>
-												<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
-											</div>
-											<p class="ml-3 pt-1">PLCs programming</p>
-										</div>
-										<div class="d-flex">
-											<div>
-												<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
-											</div>
-											<p class="ml-3 pt-1">Industrial Automations</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-md-12">
-									<p class="pt-4">
-										Through an advanced curriculum and project-based structure, students learn today’s cutting-edge automation technologies. Become a ready-to-hire Automation or PLCs Engineer in just 6 Months. After 3 Months of Virtual Classroom training, you will spend
-										3 Months on Project Based Learning where you will learn the fundamentals of participating in a real life project – In addition you will learn using Studio 5000 for Allen Bradley Controllogix & Siemens Simatic TIA Portal
-										for Siemens S7 PLCs
-									</p>
-								</div>
-							</div>
-
 							
-							<div id="content-2" data-content="2" class="side-content d-none col-md-12">
-								<div class="col-md-12">
-									<p class="pt-4 ptag">Through an advanced curriculum and project-based structure, students learn today’s cutting-edge Automation technologies. Our curriculum provides an indept learning to Industrial Automation including digital electronic, programming of PLCs, Human Machine Interface (HMI) & SCADA systems.</p>
+						</div>
+						</div>
 
-									<div class="">
-										<section class="class-gallery-section class-gallery-section1 container">
-											<h1 class="text-center pt-2">A One stop platform</h1>
-											<p class="text-center pt-2 pb-4">Practic and learn til you perfect</p>
-											<div class="tabs class-gallery">
-												<ul class="nav nav-tabs" id="myTab" role="tablist">
-												<li class="nav-item">
-													<a class="nav-link active nav-link_" data-toggle="tab" href="#home" role="tab" aria-controls="home">GUIDED PROGRAM</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link nav-link_" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">DOUBT RESOLUTION</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link nav-link_" data-toggle="tab" href="#messages" role="tab" aria-controls="messages">MENTORSHIP</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link nav-link_" data-toggle="tab" href="#settings" role="tab" aria-controls="settings">UNLIMITED RESORSES</a>
-												</li>
-												<!-- <li class="nav-item">
-													<a class="nav-link" data-toggle="tab" href="#settings" role="tab" aria-controls="settings">Full stack</a>
-												</li> -->
-												</ul>
-												
-												<div class="tab-content row mt-4">	
-												<div class="tab-pane active wow fadeInDown" id="home" role="tabpanel" data-wow-duration="1400ms">
-														<div class="col-md-7">
-															<h6 class="mb-3">Well Guided Program</h6>
-															<h3 class="mb-3">We have developed and perfected the best system to learn Industrial automation and PLCs programming.</h3>
-								
-															<p>Your journey will follow a tried and tested method that yields the best results. Each concept you learn will adhere to the structure outlined below.</p>
-														<div class="icon_section">
-															<div class="d-flex pt-3">
-																<div>
-																	<i class="fa fa-check  icon_check" aria-hidden="true"></i>
-																</div>
-																<div class="ml-2">
-																	<p class="">During our 6 months training you will learn the most.</p>
-																</div>
-															</div>
-															<div class="d-flex pt-2">
-																<div>
-																	<i class="fa fa-check  icon_check" aria-hidden="true"></i>
-																</div>
-																<div class="ml-2">
-																	<p class="pt-1">During our 6 months training you will learn the most.</p>
-																</div>
-															</div>
-															<div class="d-flex pt-2">
-																<div>
-																	<i class="fa fa-check  icon_check" aria-hidden="true"></i>
-																</div>
-																<div class="ml-2">
-																	<p class="pt-1">During our 6 months training you will learn the most.</p>
-																</div>
-															</div>
-														</div>
-							
-															<div class="d-flex mt-4">
-																<div>
-																	<span>15+</span>
-																	<p>events conducted <br> every month</p>
-																</div>
-																<div class="ml-3">
-																	<span>30+</span>
-																<p>articles published <br> every month</p>
-																</div>
-																<div class="ml-3">
-																	<span>50+</span>
-																<p>articles published <br> every month</p>
-																</div>
-															</div>
-														</div>
-							
-														<div class="col-md-5">
-															<img src="/assets/img/guided program.png" class="img-fluid" alt="">
-														</div>
-												</div>
-								
-												<div class="tab-pane wow fadeInUp" id="profile" role="tabpanel"  data-wow-duration="1000ms">
+
+						<div id="content-2" data-content="2" class="side-content d-none col-md-12">
+							<div class="col-md-12">
+								<p class="pt-4 ptag">Through an advanced curriculum and project-based structure, students learn today’s cutting-edge Automation technologies. Our curriculum provides an indept learning to Industrial Automation including digital electronic, programming of PLCs, Human Machine Interface (HMI) & SCADA systems.</p>
+
+								<div class="">
+									<section class="class-gallery-section class-gallery-section1 container">
+										<h1 class="text-center pt-2">A One stop platform</h1>
+										<p class="text-center pt-2 pb-4">Practic and learn til you perfect</p>
+										<div class="tabs class-gallery">
+											<ul class="nav nav-tabs" id="myTab" role="tablist">
+											  <li class="nav-item">
+												<a class="nav-link active nav-link_" data-toggle="tab" href="#home" role="tab" aria-controls="home">GUIDED PROGRAM</a>
+											  </li>
+											  <li class="nav-item">
+												<a class="nav-link nav-link_" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">DOUBT RESOLUTION</a>
+											  </li>
+											  <li class="nav-item">
+												<a class="nav-link nav-link_" data-toggle="tab" href="#messages" role="tab" aria-controls="messages">MENTORSHIP</a>
+											  </li>
+											  <li class="nav-item">
+												<a class="nav-link nav-link_" data-toggle="tab" href="#settings" role="tab" aria-controls="settings">UNLIMITED RESORSES</a>
+											  </li>
+											  <!-- <li class="nav-item">
+												<a class="nav-link" data-toggle="tab" href="#settings" role="tab" aria-controls="settings">Full stack</a>
+											  </li> -->
+											</ul>
+											
+											<div class="tab-content row mt-4">	
+											  <div class="tab-pane active" id="home" role="tabpanel">
 													<div class="col-md-7">
-														<h6 class="mb-3">Free Resources</h6>
-														<h3 class="mb-3">With live 1:1 mentor support, you can get your questions answered right away.</h3>
-														<p>If you have any questions while watching a video, working on an assignment, or taking a test, we are here to help!</p>
+														<h6 class="mb-3">Well Guided Program</h6>
+														<h3 class="mb-3">We have developed and perfected the best system to learn Industrial automation and PLCs programming.</h3>
 							
-														<p class="pt-3">We have a network of dedicated teaching assistants to ensure that your questions are answered quickly and that you do not miss deadlines.</p>
-							
+														<p>Your journey will follow a tried and tested method that yields the best results. Each concept you learn will adhere to the structure outlined below.</p>
+													<div class="icon_section">
+														<div class="d-flex pt-3">
+															<div>
+																<i class="fa fa-check  icon_check" aria-hidden="true"></i>
+															</div>
+															<div class="ml-2">
+																<p class="">During our 6 months training you will learn the most.</p>
+															</div>
+														</div>
+														<div class="d-flex pt-2">
+															<div>
+																<i class="fa fa-check  icon_check" aria-hidden="true"></i>
+															</div>
+															<div class="ml-2">
+																<p class="pt-1">During our 6 months training you will learn the most.</p>
+															</div>
+														</div>
+														<div class="d-flex pt-2">
+															<div>
+																<i class="fa fa-check  icon_check" aria-hidden="true"></i>
+															</div>
+															<div class="ml-2">
+																<p class="pt-1">During our 6 months training you will learn the most.</p>
+															</div>
+														</div>
+													</div>
+						
 														<div class="d-flex mt-4">
 															<div>
 																<span>15+</span>
 																<p>events conducted <br> every month</p>
 															</div>
-															<div class="ml-5">
+															<div class="ml-3">
 																<span>30+</span>
+															<p>articles published <br> every month</p>
+															</div>
+															<div class="ml-3">
+																<span>50+</span>
 															<p>articles published <br> every month</p>
 															</div>
 														</div>
 													</div>
+						
 													<div class="col-md-5">
-														<img src="/assets/img/doubt resolution.png" class="img-fluid" alt="">
+														<img src="/assets/img/guided program.png" class="img-fluid" alt="">
+													</div>
+											</div>
+							
+											  <div class="tab-pane wow fadeInUp" id="profile" role="tabpanel"  data-wow-duration="1000ms">
+												<div class="col-md-7">
+													<h6 class="mb-3">Free Resources</h6>
+													<h3 class="mb-3">With live 1:1 mentor support, you can get your questions answered right away.</h3>
+													<p>If you have any questions while watching a video, working on an assignment, or taking a test, we are here to help!</p>
+						
+													<p class="pt-3">We have a network of dedicated teaching assistants to ensure that your questions are answered quickly and that you do not miss deadlines.</p>
+						
+													<div class="d-flex mt-4">
+														<div>
+															<span>15+</span>
+															<p>events conducted <br> every month</p>
+														</div>
+														<div class="ml-5">
+															<span>30+</span>
+														<p>articles published <br> every month</p>
+														</div>
 													</div>
 												</div>
+												<div class="col-md-5">
+													<img src="/assets/img/doubt resolution.png" class="img-fluid" alt="">
+												</div>
+											</div>
+							
+											  <div class="tab-pane wow fadeInUp" id="messages" role="tabpanel"  data-wow-duration="1000ms">
+												<div class="col-md-7 ">
+													<h3 class="mb-3">Madesoft Academy students are matched with a mentor.</h3>
+													<p>These mentors are established professionals with more than 15 years of experience who are still working within the industry. They're going to provide you with sound counsel, encouragement, and assistance</p>
 								
-												<div class="tab-pane wow fadeInUp" id="messages" role="tabpanel"  data-wow-duration="1000ms">
-													<div class="col-md-7 ">
-														<h3 class="mb-3">Madesoft Academy students are matched with a mentor.</h3>
-														<p>These mentors are established professionals with more than 15 years of experience who are still working within the industry. They're going to provide you with sound counsel, encouragement, and assistance</p>
-									
-														<p class="pt-3">They're going to assist you in identifying your objectives and establishing a sense of direction, as well as provide you with opportunities to learn from their experience.</p>
-													</div>
-													<div class="col-md-5">
-														<img src="/assets/img/mentorship.png" class="img-fluid" alt="">
-													</div>
+													<p class="pt-3">They're going to assist you in identifying your objectives and establishing a sense of direction, as well as provide you with opportunities to learn from their experience.</p>
 												</div>
+												<div class="col-md-5">
+													<img src="/assets/img/mentorship.png" class="img-fluid" alt="">
+												</div>
+											</div>
+							
+											  <div class="tab-pane wow fadeInUp" id="settings" role="tabpanel" data-wow-duration="1000ms">
+												<div class="col-md-7 ">
+													<h3 class="mb-3">There are numerous resources available to help you learn and stay current.</h3>
+													<p>We have created a high-quality and engaging Technical Resource Library with a plethora of high-quality Tech resources available online to help you learn and stay current.</p>
 								
-												<div class="tab-pane wow fadeInUp" id="settings" role="tabpanel" data-wow-duration="1000ms">
-													<div class="col-md-7 ">
-														<h3 class="mb-3">There are numerous resources available to help you learn and stay current.</h3>
-														<p>We have created a high-quality and engaging Technical Resource Library with a plethora of high-quality Tech resources available online to help you learn and stay current.</p>
-									
-														<p class="pt-3">We also hold webinars and events on a regular basis to answer your burning questions and keep you up to date on the latest happenings in the tech world. </p>
-													</div>
-													<div class="col-md-5">
-														<img src="/assets/img/unlimited resources.png" class="img-fluid" alt="">
-													</div>
-												</div>  
+													<p class="pt-3">We also hold webinars and events on a regular basis to answer your burning questions and keep you up to date on the latest happenings in the tech world. </p>
 												</div>
+												<div class="col-md-5">
+													<img src="/assets/img/unlimited resources.png" class="img-fluid" alt="">
 												</div>
-										</section>
-									</div>
+											</div>  
+											</div>
+											</div>
+									</section>
+								</div>
 
-									<p class=" ptag">
-										You bring the energy, curiosity, and dedication, and we'll provide a world-class school for becoming an expert Automation or PLC Engineer.
+								<p class="mb-3 ptag">
+									You bring the energy, curiosity, and dedication, and we'll provide a world-class school for becoming an expert Automation or PLC Engineer.
+								</p>
+							</div>
+							<div class="">
+								<div class="col-md-6 mb-4">
+									<div class="card">
+										<div class="card-header">
+											<div class="text-danger small text1">Next Batch</div>
+											<div class="text-primary text2">September 1st</div>
+										</div>
+										<div class="card-body mt-4">
+											<div class="dollar">
+												$800 <span>or</span> <span class="span2">#400,000</span>
+											</div>
+										</div>
+										<h1 class="ml-4 mt-4 mb-5">Proceed to <span class="apply" style="
+											text-align: center;
+											font-family: 'Poppins', sans-serif;
+											font-weight: 500;
+											font-size: 16px;
+											letter-spacing: 0px;
+											color: #EC3944;">Apply</span></h1>
+									</div>
+								</div>
+								
+								<div class="col-md-6 mb-4">
+									<div class="card">
+										<div class="card-header">
+											<div class="text-danger small text1">Next Batch</div>
+											<div class="text-primary text2">September 1st</div>
+										</div>
+										<div class="card-body mt-4">
+											<div class="dollar">
+												$800 <span>or</span> <span class="span2">#400,000</span>
+											</div>
+										</div>
+										<h1 class="ml-4 mt-4 mb-5">Proceed to <span class="apply" style="
+											text-align: center;
+											font-family: 'Poppins', sans-serif;
+											font-weight: 500;
+											font-size: 16px;
+											letter-spacing: 0px;
+											color: #EC3944;">Apply</span></h1>
+									</div>
+								</div>
+	
+								
+							</div>
+						</div>
+
+						<div id="content-5" data-content="5" class="side-content d-none col-md-12">
+							<div class="row change-section">
+								<div class="d-flex mt-4 ml-4">
+									<div>
+										<h2 class="mb-4">Admission Requirments</h2>
+									</div>
+								</div>
+								<div class="col-md-12 ml-3">
+									<p class="ptag">Applicant for this course must have a minimum of Diploma in any of the sciences or currently in an institution of Higher learning. Also Applicant without qualification but have 1+ year working experience in the field of electrical/electronics or computer shall be considered for a place in the program.</p>
+									<p class="pt-4 ptag pb-5">To participate in this program students must have a personal computer that meets the following minimum specifications: Intel Pentium or equivalent for Virtual Machine & Simulator
 									</p>
 								</div>
-							</div>
-
-<<<<<<< HEAD
-							<div id="content-5" data-content="5" class="side-content d-none col-md-12">
-								<div class="row change-section">
-									<div class="d-flex mt-5 ml-3">
+								<div class="col-md-7  ml-3">
+									<div class="d-flex">
 										<div>
-											<h2 class="mb-3">Modules Covered</h2>
+											<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
 										</div>
-										<div class="d-flex ml-auto mr-5">
-										<a href="" style="color: #EC3944;">Download Syllabus</a>
-										</div>
+											<p class="ml-3 pt-1">Minimum of 16 GB RAM</p>
 									</div>
-									<div class="col-md-6  ml-3">
-										<div class="d-flex">
-											<div>
-												<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
-											</div>
-												<p class="ml-3 pt-1">HMI</p>
+									<div class="d-flex">
+										<div>
+											<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
 										</div>
-										<div class="d-flex">
-											<div>
-												<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
-											</div>
-												<p class="ml-3 pt-1">Scada Systems</p>
+											<p class="ml-3 pt-1">250 GB of Available Disk Space</p>
+									</div>
+									<div class="d-flex">
+										<div>
+											<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
 										</div>
-										<div class="d-flex">
-											<div>
-												<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
-											</div>
-												<p class="ml-3 pt-1">Digital electronic</p>
+											<p class="ml-3 pt-1">Windows 7/ Windows8/ Windows 10</p>
+									</div>
+									<div class="d-flex">
+										<div>
+											<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
 										</div>
-										<div class="d-flex">
-											<div>
-												<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
-											</div>
-												<p class="ml-3 pt-1">PLCs programming</p>
+											<p class="ml-3 pt-1">64 Bit Compatible</p>
+									</div>
+									<div class="d-flex">
+										<div>
+											<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
 										</div>
-										<div class="d-flex">
-											<div>
-												<i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
-											</div>
-												<p class="ml-3 pt-1">Industrial Automations</p>
-										</div>
+											<p class="ml-3 pt-1">Good Internet Access</p>
 									</div>
 								</div>
 							</div>
+						</div>
 
-							<div id="content-6" data-content="6" class="side-content d-none">
-								<div class="col-md-12">
-									<h1 class="mt-5 pt-4">Frequently Asked Questions</h1>
-									<div class="mt-5">
-										<div class="panel-group" id="faqAccordion">
-											<div class="panel panel-default ">
-												<div class="panel-heading d-flex accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0" style="background-color: white; border: none!important; cursor: pointer;">
-													<h4 class="panel-title">
-														<a href="#" class="ing"> Why should i attend Fullstack Academy?</a>
-													</h4>
-													
-													<div class="d-flex ml-auto">
-														<i class="fa fa-caret-down" style="cursor: pointer;" aria-hidden="true"></i>
-													</div>
-=======
 						<div id="content-6" data-content="6" class="side-content d-none">
 							<div class="col-md-12">
 								<h1 class="mt-5 pt-4">Frequently Asked Questions</h1>
@@ -589,85 +631,80 @@
 								
 													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five <a href="http://jquery2dotnet.com/" class="label label-success">http://jquery2dotnet.com/</a> centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 														</p>
->>>>>>> parent of 386a37e... first commit
-												</div>
-												<div id="question0" class="panel-collapse collapse" style="height: 0px;">
-													<div class="panel-body">
-														<h5><span class="label label-primary">Answer</span></h5>
-									
-														<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five <a href="http://jquery2dotnet.com/" class="label label-success">http://jquery2dotnet.com/</a> centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-															</p>
-													</div>
 												</div>
 											</div>
-											
-											<div class="panel panel-default ">
-												<div class="panel-heading d-flex accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1" style="background-color: white; border: none!important; cursor: pointer;">
-													<h4 class="panel-title">
-														<a href="#" class="ing"><a href="#" class="ing"> Why Fullstack Javascript?</a>
-												</h4>
-			
-												<div class="d-flex ml-auto">
-													<i class="fa fa-caret-down" style="cursor: pointer;" aria-hidden="true"></i>
-												</div>
-									
-												</div>
-												<div id="question1" class="panel-collapse collapse" style="height: 0px;">
-													<div class="panel-body">
-														<h5><span class="label label-primary">Answer</span></h5>
-									
-														<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-													</div>
-												</div>
-											</div>
-			
-											<div class="panel panel-default ">
-												<div class="panel-heading d-flex accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2" style="background-color: white; border: none!important; cursor: pointer;">
-													<h4 class="panel-title">
-														<a href="#" class="ing"><a href="#" class="ing">Do you accept the new GI Bill (for venterans?)</a>
-												</h4>
-												
-												
-												<div class="d-flex ml-auto">
-													<i class="fa fa-caret-down" style="cursor: pointer;" aria-hidden="true"></i>
-												</div>
-												</div>
-												<div id="question2" class="panel-collapse collapse" style="height: 0px;">
-													<div class="panel-body">
-														<h5><span class="label label-primary">Answer</span></h5>
-									
-														<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-													</div>
-												</div>
-											</div>
-			
-											<div class="panel panel-default">
-												<div class="panel-heading d-flex accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3" style="background-color: white; border: none!important; cursor: pointer;" title="">
-													<h4 class="panel-title">
-														<a href="#" class="ing"><a href="#" class="ing"> How dose the immersive program compare to online resources</a>
-												</h4>
-			
-												
-												<div class="d-flex ml-auto">
-													<i class="fa fa-caret-down" style="cursor: pointer;" aria-hidden="true"></i>
-												</div>
-									
-												</div>
-												<div id="question3" class="panel-collapse collapse" style="height: 0px;">
-													<div class="panel-body">
-														<h5><span class="label label-primary">Answer</span></h5>
-									
-														<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-													</div>
-												</div>
-											</div>
-											
 										</div>
-										<!--/panel-group-->
+										
+										<div class="panel panel-default ">
+											<div class="panel-heading d-flex accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1" style="background-color: white; border: none!important; cursor: pointer;">
+												 <h4 class="panel-title">
+													<a href="#" class="ing"><a href="#" class="ing"> Why Fullstack Javascript?</a>
+											  </h4>
+		
+											  <div class="d-flex ml-auto">
+												<i class="fa fa-caret-down" style="cursor: pointer;" aria-hidden="true"></i>
+											  </div>
+								
+											</div>
+											<div id="question1" class="panel-collapse collapse" style="height: 0px;">
+												<div class="panel-body">
+													 <h5><span class="label label-primary">Answer</span></h5>
+								
+													<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+												</div>
+											</div>
+										</div>
+		
+										<div class="panel panel-default ">
+											<div class="panel-heading d-flex accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2" style="background-color: white; border: none!important; cursor: pointer;">
+												 <h4 class="panel-title">
+													<a href="#" class="ing"><a href="#" class="ing">Do you accept the new GI Bill (for venterans?)</a>
+											  </h4>
+											  
+											  
+											  <div class="d-flex ml-auto">
+												<i class="fa fa-caret-down" style="cursor: pointer;" aria-hidden="true"></i>
+											  </div>
+											</div>
+											<div id="question2" class="panel-collapse collapse" style="height: 0px;">
+												<div class="panel-body">
+													 <h5><span class="label label-primary">Answer</span></h5>
+								
+													<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+												</div>
+											</div>
+										</div>
+		
+										<div class="panel panel-default">
+											<div class="panel-heading d-flex accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3" style="background-color: white; border: none!important; cursor: pointer;" title="">
+												 <h4 class="panel-title">
+													<a href="#" class="ing"><a href="#" class="ing"> How dose the immersive program compare to online resources</a>
+											  </h4>
+		
+											  
+											  <div class="d-flex ml-auto">
+												<i class="fa fa-caret-down" style="cursor: pointer;" aria-hidden="true"></i>
+											  </div>
+								
+											</div>
+											<div id="question3" class="panel-collapse collapse" style="height: 0px;">
+												<div class="panel-body">
+													 <h5><span class="label label-primary">Answer</span></h5>
+								
+													<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+												</div>
+											</div>
+										</div>
+										
 									</div>
+									<!--/panel-group-->
 								</div>
+							</div>
+						</div>
 
+						<div class="row">
 						
+						</div>
 						</div>
 					</div>
 				</div>
@@ -677,168 +714,169 @@
 
 
 
-	<footer class="mt-5">
-		<div class="container ">
-			<div class="top-footer ">
-				<div class="bottom-footer ">
-					<div class="row align-items-center ">
-						<div class="col-lg-6 col-md-6 col-sm-6 pb-5 ">
-							<img src="/assets/img/madesoft academy logo white.png " width="280 " class="img-fluid " alt=" ">
-						</div>
-						<div class="col-lg-6 col-md-6 d-flex ml-auto justify-content-end col-sm-6 ">
-							<div class="mb-4 d-flex justify-content-end ">
-								<form @submit.prevent="sendEmail " class="d-flex justify-content-end ml-auto ">
-									<input type="email " class="newsletter-textfield mt-2 w-input " maxlength="256 " name="Email-2 " data-name="Email 2 " placeholder="Join our mailing list " id="Email-2 " required=" ">
-									<div>
-										<button class="btn btn-sacademy mt-2 " type="submit " value="Send ">Subscribe</button>
-									</div>
-								</form>
+	
+		
+
+
+	
+		
+		
+		
+
+		
+
+	
+
+		<footer class="mt-5">
+			<div class="container">
+				<div class="top-footer">
+					<div class="bottom-footer">
+						<div class="row align-items-center">
+							<div class="col-lg-6 col-md-6 col-sm-6 pb-5">
+								<img src="/assets/img/madesoft academy logo white.png" width="280" class="img-fluid" alt="">
+							</div>
+							<div class="col-lg-6 col-md-6 d-flex ml-auto justify-content-end col-sm-6">
+								<div class="mb-4 d-flex justify-content-end">
+									<form @submit.prevent="sendEmail" class="d-flex justify-content-end ml-auto">
+										<input type="email" class="newsletter-textfield mt-2 w-input" maxlength="256" name="Email-2" data-name="Email 2" placeholder="Join our mailing list" id="Email-2" required="">
+									  <div>
+										<button class="btn btn-sacademy mt-2" type="submit"
+										value="Send">Subscribe</button>
+									  </div>
+									</form>
+								  </div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row mt-5 pt-4 ">
-					<div class="col-lg-3 col-md-6 col-sm-6 ">
-						<div class="widget widget-contact ">
-							<ul class="contact-add ">
-								<li>
-									<div class="contact-info ">
-
-										<div class="contact-tt ">
-											<h4>Call</h4>
-											<span>+2347081697403</span>
-										</div>
-									</div>
-									<!--contact-info end-->
-								</li>
-								<li>
-									<div class="contact-info ">
-
-										<div class="contact-tt ">
-											<h4>Work Time</h4>
-											<span>Mon - Fri 8 AM - 5 PM</span>
-										</div>
-									</div>
-									<!--contact-info end-->
-								</li>
-								<li>
-									<div class="contact-info ">
-
-										<div class="contact-tt ">
-											<h4>Address</h4>
-											<span>Lagos ikeja, Omole Phase 2,</span>
-										</div>
-									</div>
-									<!--contact-info end-->
-								</li>
+					<div class="row mt-5 pt-4">
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="widget widget-contact">
+								<ul class="contact-add">
+									<li>
+										<div class="contact-info">
+											
+											<div class="contact-tt">
+												<h4>Call</h4>
+												<span>+2347081697403</span>
+											</div>
+										</div><!--contact-info end-->
+									</li>
+									<li>
+										<div class="contact-info">
+											
+											<div class="contact-tt">
+												<h4>Work Time</h4>
+												<span>Mon - Fri 8 AM - 5 PM</span>
+											</div>
+										</div><!--contact-info end-->
+									</li>
+									<li>
+										<div class="contact-info">
+											
+											<div class="contact-tt">
+												<h4>Address</h4>
+												<span>Lagos ikeja, Omole Phase 2,</span>
+											</div>
+										</div><!--contact-info end-->
+									</li>
+								</ul>
+							</div><!--widget-contact end-->
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="widget widget-links">
+								<h3 class="widget-title">Quick Links</h3>
+								<ul>
+									<li><a href="index.html" title="">Home </a></li>
+									<li><a href="about.html" title="">About us</a></li>
+									<li><a href="#" title="">Companies</a></li>
+									<li><a href="#" title="">Universities</a></li>
+									<li><a href="contacts.html" title="">Contacts</a></li>
+									
+								</ul>
+							</div><!--widget-links end-->
+						</div>
+						<div class="col-lg-2 col-md-6 col-sm-6" style="position: relative; left: -25px;">
+							<div class="widget widget-links">
+								<h3 class="widget-title">follow us</h3>
+								<ul>
+									<li><a href="https://www.facebook.com/madesoftacademy" title="">Facebook</a></li>
+									<li><a href="https://www.instagram.com/madesoftacademy/" title="">instagram</a></li>
+									<li><a href="https://www.linkedin.com/company/madesoftacademy/" title="">linkedin</a></li>
+									<li><a href="#" title="">Twitter</a></li>
+									
+								</ul>
+							</div><!--widget-links end-->
+						</div>
+						
+						<div class="col-lg-3 d-flex justify-content-end ml-auto col-md-6 col-sm-6">
+							<ul class="social-links_">
+								<li><a href="https://www.facebook.com/madesoftacademy" target="https://www.facebook.com/madesoftacademy" title=""><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="https://www.linkedin.com/company/madesoftacademy/" target="https://www.linkedin.com/company/madesoftacademy/"title=""><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="https://www.instagram.com/madesoftacademy/" target="https://www.instagram.com/madesoftacademy/"  title=""><i class="fab fa-instagram"></i></a></li>
 							</ul>
 						</div>
-						<!--widget-contact end-->
-					</div>
-
-					<div class="col-lg-3 col-md-6 col-sm-6 ">
-						<div class="widget widget-links ">
-							<h3 class="widget-title ">Quick Links</h3>
-							<ul>
-								<li><a href="index.html " title=" ">Home </a></li>
-								<li><a href="about.html " title=" ">About us</a></li>
-								<li><a href="# " title=" ">Companies</a></li>
-								<li><a href="# " title=" ">Universities</a></li>
-								<li><a href="contacts.html " title=" ">Contacts</a></li>
-
-							</ul>
-						</div>
-						<!--widget-links end-->
-					</div>
-					<div class="col-lg-2 col-md-6 col-sm-6 " style="position: relative; left: -25px; ">
-						<div class="widget widget-links ">
-							<h3 class="widget-title ">follow us</h3>
-							<ul>
-								<li><a href="https://www.facebook.com/madesoftacademy " title=" ">Facebook</a></li>
-								<li><a href="https://www.instagram.com/madesoftacademy/ " title=" ">instagram</a></li>
-								<li><a href="https://www.linkedin.com/company/madesoftacademy/ " title=" ">linkedin</a></li>
-								<li><a href="# " title=" ">Twitter</a></li>
-
-							</ul>
-						</div>
-						<!--widget-links end-->
-					</div>
-
-					<div class="col-lg-3 d-flex justify-content-end ml-auto col-md-6 col-sm-6 ">
-						<ul class="social-links_ ">
-							<li><a href="https://www.facebook.com/madesoftacademy " target="https://www.facebook.com/madesoftacademy " title=" "><i class="fab fa-facebook-f "></i></a></li>
-							<li><a href="https://www.linkedin.com/company/madesoftacademy/ " target="https://www.linkedin.com/company/madesoftacademy/ " title=" "><i class="fab fa-linkedin-in "></i></a></li>
-							<li><a href="https://www.instagram.com/madesoftacademy/ " target="https://www.instagram.com/madesoftacademy/ " title=" "><i class="fab fa-instagram "></i></a></li>
-						</ul>
 					</div>
 				</div>
+				<!-- <div class="bottom-footer">
+					<div class="row align-items-center">
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<p>© Copyrights 2020 Shelly All rights reserved</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+						
+						</div>
+					</div>
+				</div> -->
 			</div>
-			<!-- <div class="bottom-footer ">
-				<div class="row align-items-center ">
-					<div class="col-lg-6 col-md-6 col-sm-6 ">
-						<p>© Copyrights 2020 Shelly All rights reserved</p>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6 ">
-					
-					</div>
-				</div>
-			</div> -->
-		</div>
-	</footer>
+		</footer>
 
-	<!--back to top begin-->
-	<button class="back-to-top ">
-		<i class="fas fa-arrow-up "></i>
-	</button>
-	<!--back to top end-->
+		<!--back to top begin-->
+		<button class="back-to-top">
+			<i class="fas fa-arrow-up"></i>
+		</button>
+		<!--back to top end-->
 
-</div>
+	</div>
 
+	<script>
+// 		$('.tabs').on('show.bs.tab', function (e) {    	
+//   if (e.relatedTarget === undefined) {    
+//     $($(e.target).attr('href')).slideDown('slow');
+//   }
+//   else {
+//     $($(e.relatedTarget).attr('href')).slideUp({ duration: 'fast', queue: true,
+//       done: function() {
+//         $($(e.target).attr('href')).slideDown('slow');
+//       }
+//     });
+//   }	
+// });
+	AOS.init({
+      offset: 100,
+      duration: 1000,
+    });
 
+	function setContent(id) {
+		
+		const elt = document.querySelector(`[data-content='${id}']`)
+		const contents = document.querySelectorAll(`.side-content`)
+		contents.forEach(x => {
+			x.classList.add("d-none")
+		})
+		elt.classList.remove("d-none")
+	}
 
+	</script>
 
-
-        <script>
-            // 		$('.tabs').on('show.bs.tab', function (e) {    	
-            //   if (e.relatedTarget === undefined) {    
-            //     $($(e.target).attr('href')).slideDown('slow');
-            //   }
-            //   else {
-            //     $($(e.relatedTarget).attr('href')).slideUp({ duration: 'fast', queue: true,
-            //       done: function() {
-            //         $($(e.target).attr('href')).slideDown('slow');
-            //       }
-            //     });
-            //   }	
-            // });
-            AOS.init({
-                offset: 100,
-                duration: 1000,
-            });
-
-            function setContent(id) {
-
-                const elt = document.querySelector(`[data-content='${id}']`)
-                const contents = document.querySelectorAll(`.side-content`)
-                contents.forEach(x => {
-                    x.classList.add("d-none ")
-                })
-                elt.classList.remove("d-none ")
-            }
-        </script>
-
-
-
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
-<script src="assets/js/jquery.js "></script>
-<script src="assets/js/bootstrap.min.js "></script>
-<script src="assets/js/isotope.js "></script>
-<script src="assets/js/html5lightbox.js "></script>
-<script src="assets/js/slick.min.js "></script>
-<script src="assets/js/tweenMax.js "></script>
-<script src="assets/js/wow.min.js "></script>
-<script src="assets/js/scripts.js "></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/isotope.js"></script>
+<script src="assets/js/html5lightbox.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/tweenMax.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/scripts.js"></script>
 
 
 </body>
