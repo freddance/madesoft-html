@@ -3998,6 +3998,7 @@ opacity: 1;
     box-shadow: inset 0px 3px 6px #00000029;
     border-radius: 10px;
     opacity: 1;
+    
 }
 .course-page h1 {
     font: normal normal 600 18px/22px Poppins;
@@ -4041,4 +4042,14 @@ color: #584F4F78;
 opacity: 1;
 }
 
-
+.btn-sacademy1 {
+    background: #EC3944 0% 0% no-repeat padding-box;
+border-radius: 10px;
+font-family: 'Poppins', sans-serif;
+font-weight:  500;
+font-size: 18px;
+color: white;
+opacity: 1;
+width: 255px;
+height: 50px;
+}
