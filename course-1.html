@@ -58,6 +58,36 @@
         color: #707070;
         opacity: 1;
     }
+    
+    .side-content-main {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        opacity: 1;
+        height: 100%;
+    }
+    
+    .side-content-main h3 {
+        font: normal normal 600 18px/22px Poppins;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+    
+    .side-content-main span {
+        text-align: center;
+        font: normal normal normal 15px/22px Open Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+    
+    .side-content-main .ptag {
+        text-align: left;
+        font: normal normal normal 15px/20px Open Sans;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+    }
 </style>
 
 <body>
@@ -225,7 +255,6 @@
                     </div>
                 </div>
 
-
                 <div class="col-md-9">
                     <div class="side-content-main p-4">
                         <div class="ml-5 mt-3">
@@ -349,169 +378,155 @@
             </div>
         </div>
     </section>
-    <div class="row">
-        <div class="col-md-6 mb-4">
-            <div class="card">
-                <div class="card-header">
-                    <div class="text-danger small">Next Batch</div>
-                    <div class="text-primary">September 1st</div>
-                </div>
-                <div class="card-body">
+
+    <section class="mt-5 pt-5">
+        <div class="container course-page p-5">
+            <div class="row">
+                <h1 class="mb-5 pb-3">Why should I learn Competitive Programming?</h1>
+
+                <div class="col-md-3 course-sidebar">
+                    <div onclick="setContent(1)" class="course-cover p-3">
+                        <span>Course Detail</span>
+                    </div>
+                    <div onclick="setContent(2)" class="course-cover p-3">
+                        <span>Curriculum</span>
+                    </div>
+                    <div onclick="setContent(2)" class="course-cover p-3">
+                        <span>Tuition and Finance</span>
+                    </div>
+                    <div onclick="setContent(2)" class="course-cover p-3">
+                        <span>Course Structure</span>
+                    </div>
+                    <div onclick="setContent(2)" class="course-cover p-3">
+                        <span>Admission</span>
+                    </div>
+                    <div onclick="setContent(2)" class="course-cover p-3">
+                        <span>FAQ</span>
+                    </div>
+                    <div onclick="setContent(2)" class="course-cover p-3">
+                        <span>Download Syllabus</span>
+                    </div>
                     <div>
-                        $800 or #400,000
+                        <button class="btn btn-sacademy1 mt-2" type="submit" value="Send">Apply</button>
                     </div>
                 </div>
-                Proceed to apply
+                < div class="col-md-12 pb-5">
+                    <p class="pt-4">
+                        Through an advanced curriculum and project-based structure, students learn today’s cutting-edge automation technologies. Become a ready-to-hire Automation or PLCs Engineer in just 6 Months. After 3 Months of Virtual Classroom training, you will spend
+                        3 Months on Project Based Learning where you will learn the fundamentals of participating in a real life project – In addition you will learn using Studio 5000 for Allen Bradley Controllogix & Siemens Simatic TIA Portal for Siemens
+                        S7 PLCs
+                    </p>
             </div>
         </div>
-    </div>
-    <section class="bg-danger my-4">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-md-6 mb-4 text-white">
-                    <h3 class="h1">Still Unsure about this course ?</h3>
-                    <div>Get a free counselling session from our experts</div>
-                    <div class="display-4">
-                        +2347081697403
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <form action="">
-                                <div class="row">
-                                    <div class="col-md-6 mb-4">
-                                        <input type="text" placeholder="full name " class="form-control">
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <input type="email" placeholder="email" class="form-control">
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <input type="tel" placeholder="contact number" class="form-control">
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <input type="text" placeholder="level of education " class="form-control">
-                                    </div>
-                            </form>
+        >>>>>>> 227286fbc49db505fc076f4851a46142c45f0fb0
+
+
+
+
+
+
+
+
+
+
+
+        <footer class=" mt-5 ">
+            <div class="container ">
+                <div class="top-footer ">
+                    <div class="bottom-footer ">
+                        <div class="row align-items-center ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 pb-5 ">
+                                <img src="/assets/img/madesoft academy logo white.png " width="280 " class="img-fluid " alt=" ">
                             </div>
-                        </div>
-
-                    </div>
-                </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer class=" mt-5 ">
-        <div class="container ">
-            <div class="top-footer ">
-                <div class="bottom-footer ">
-                    <div class="row align-items-center ">
-                        <div class="col-lg-6 col-md-6 col-sm-6 pb-5 ">
-                            <img src="/assets/img/madesoft academy logo white.png " width="280 " class="img-fluid " alt=" ">
-                        </div>
-                        <div class="col-lg-6 col-md-6 d-flex ml-auto justify-content-end col-sm-6 ">
-                            <div class="mb-4 d-flex justify-content-end ">
-                                <form @submit.prevent="sendEmail " class="d-flex justify-content-end ml-auto ">
-                                    <input type="email " class="newsletter-textfield mt-2 w-input " maxlength="256 " name="Email-2 " data-name="Email 2 " placeholder="Join our mailing list " id="Email-2 " required=" ">
-                                    <div>
-                                        <button class="btn btn-sacademy mt-2 " type="submit " value="Send ">Subscribe</button>
-                                    </div>
-                                </form>
+                            <div class="col-lg-6 col-md-6 d-flex ml-auto justify-content-end col-sm-6 ">
+                                <div class="mb-4 d-flex justify-content-end ">
+                                    <form @submit.prevent="sendEmail " class="d-flex justify-content-end ml-auto ">
+                                        <input type="email " class="newsletter-textfield mt-2 w-input " maxlength="256 " name="Email-2 " data-name="Email 2 " placeholder="Join our mailing list " id="Email-2 " required=" ">
+                                        <div>
+                                            <button class="btn btn-sacademy mt-2 " type="submit " value="Send ">Subscribe</button>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="row mt-5 pt-4 ">
+                        <div class="col-lg-3 col-md-6 col-sm-6 ">
+                            <div class="widget widget-contact ">
+                                <ul class="contact-add ">
+                                    <li>
+                                        <div class="contact-info ">
+
+                                            <div class="contact-tt ">
+                                                <h4>Call</h4>
+                                                <span>+2347081697403</span>
+                                            </div>
+                                        </div>
+                                        <!--contact-info end-->
+                                    </li>
+                                    <li>
+                                        <div class="contact-info ">
+
+                                            <div class="contact-tt ">
+                                                <h4>Work Time</h4>
+                                                <span>Mon - Fri 8 AM - 5 PM</span>
+                                            </div>
+                                        </div>
+                                        <!--contact-info end-->
+                                    </li>
+                                    <li>
+                                        <div class="contact-info ">
+
+                                            <div class="contact-tt ">
+                                                <h4>Address</h4>
+                                                <span>Lagos ikeja, Omole Phase 2,</span>
+                                            </div>
+                                        </div>
+                                        <!--contact-info end-->
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--widget-contact end-->
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6 ">
+                            <div class="widget widget-links ">
+                                <h3 class="widget-title ">Quick Links</h3>
+                                <ul>
+                                    <li><a href="index.html " title=" ">Home </a></li>
+                                    <li><a href="about.html " title=" ">About us</a></li>
+                                    <li><a href="# " title=" ">Companies</a></li>
+                                    <li><a href="# " title=" ">Universities</a></li>
+                                    <li><a href="contacts.html " title=" ">Contacts</a></li>
+
+                                </ul>
+                            </div>
+                            <!--widget-links end-->
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 " style="position: relative; left: -25px; ">
+                            <div class="widget widget-links ">
+                                <h3 class="widget-title ">follow us</h3>
+                                <ul>
+                                    <li><a href="https://www.facebook.com/madesoftacademy " title=" ">Facebook</a></li>
+                                    <li><a href="https://www.instagram.com/madesoftacademy/ " title=" ">instagram</a></li>
+                                    <li><a href="https://www.linkedin.com/company/madesoftacademy/ " title=" ">linkedin</a></li>
+                                    <li><a href="# " title=" ">Twitter</a></li>
+
+                                </ul>
+                            </div>
+                            <!--widget-links end-->
+                        </div>
+
+                        <div class="col-lg-3 d-flex justify-content-end ml-auto col-md-6 col-sm-6 ">
+                            <ul class="social-links_ ">
+                                <li><a href="https://www.facebook.com/madesoftacademy " target="https://www.facebook.com/madesoftacademy " title=" "><i class="fab fa-facebook-f "></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/madesoftacademy/ " target="https://www.linkedin.com/company/madesoftacademy/ " title=" "><i class="fab fa-linkedin-in "></i></a></li>
+                                <li><a href="https://www.instagram.com/madesoftacademy/ " target="https://www.instagram.com/madesoftacademy/ " title=" "><i class="fab fa-instagram "></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="row mt-5 pt-4 ">
-                    <div class="col-lg-3 col-md-6 col-sm-6 ">
-                        <div class="widget widget-contact ">
-                            <ul class="contact-add ">
-                                <li>
-                                    <div class="contact-info ">
-
-                                        <div class="contact-tt ">
-                                            <h4>Call</h4>
-                                            <span>+2347081697403</span>
-                                        </div>
-                                    </div>
-                                    <!--contact-info end-->
-                                </li>
-                                <li>
-                                    <div class="contact-info ">
-
-                                        <div class="contact-tt ">
-                                            <h4>Work Time</h4>
-                                            <span>Mon - Fri 8 AM - 5 PM</span>
-                                        </div>
-                                    </div>
-                                    <!--contact-info end-->
-                                </li>
-                                <li>
-                                    <div class="contact-info ">
-
-                                        <div class="contact-tt ">
-                                            <h4>Address</h4>
-                                            <span>Lagos ikeja, Omole Phase 2,</span>
-                                        </div>
-                                    </div>
-                                    <!--contact-info end-->
-                                </li>
-                            </ul>
-                        </div>
-                        <!--widget-contact end-->
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6 ">
-                        <div class="widget widget-links ">
-                            <h3 class="widget-title ">Quick Links</h3>
-                            <ul>
-                                <li><a href="index.html " title=" ">Home </a></li>
-                                <li><a href="about.html " title=" ">About us</a></li>
-                                <li><a href="# " title=" ">Companies</a></li>
-                                <li><a href="# " title=" ">Universities</a></li>
-                                <li><a href="contacts.html " title=" ">Contacts</a></li>
-
-                            </ul>
-                        </div>
-                        <!--widget-links end-->
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 " style="position: relative; left: -25px; ">
-                        <div class="widget widget-links ">
-                            <h3 class="widget-title ">follow us</h3>
-                            <ul>
-                                <li><a href="https://www.facebook.com/madesoftacademy " title=" ">Facebook</a></li>
-                                <li><a href="https://www.instagram.com/madesoftacademy/ " title=" ">instagram</a></li>
-                                <li><a href="https://www.linkedin.com/company/madesoftacademy/ " title=" ">linkedin</a></li>
-                                <li><a href="# " title=" ">Twitter</a></li>
-
-                            </ul>
-                        </div>
-                        <!--widget-links end-->
-                    </div>
-
-                    <div class="col-lg-3 d-flex justify-content-end ml-auto col-md-6 col-sm-6 ">
-                        <ul class="social-links_ ">
-                            <li><a href="https://www.facebook.com/madesoftacademy " target="https://www.facebook.com/madesoftacademy " title=" "><i class="fab fa-facebook-f "></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/madesoftacademy/ " target="https://www.linkedin.com/company/madesoftacademy/ " title=" "><i class="fab fa-linkedin-in "></i></a></li>
-                            <li><a href="https://www.instagram.com/madesoftacademy/ " target="https://www.instagram.com/madesoftacademy/ " title=" "><i class="fab fa-instagram "></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="bottom-footer ">
+                <!-- <div class="bottom-footer ">
 					<div class="row align-items-center ">
 						<div class="col-lg-6 col-md-6 col-sm-6 ">
 							<p>© Copyrights 2020 Shelly All rights reserved</p>
@@ -521,55 +536,55 @@
 						</div>
 					</div>
 				</div> -->
-        </div>
-    </footer>
+            </div>
+        </footer>
 
-    <!--back to top begin-->
-    <button class="back-to-top ">
+        <!--back to top begin-->
+        <button class="back-to-top ">
 			<i class="fas fa-arrow-up "></i>
 		</button>
-    <!--back to top end-->
+        <!--back to top end-->
 
-    </div>
+        </div>
 
-    <script>
-        // 		$('.tabs').on('show.bs.tab', function (e) {    	
-        //   if (e.relatedTarget === undefined) {    
-        //     $($(e.target).attr('href')).slideDown('slow');
-        //   }
-        //   else {
-        //     $($(e.relatedTarget).attr('href')).slideUp({ duration: 'fast', queue: true,
-        //       done: function() {
-        //         $($(e.target).attr('href')).slideDown('slow');
-        //       }
-        //     });
-        //   }	
-        // });
-        AOS.init({
-            offset: 100,
-            duration: 1000,
-        });
+        <script>
+            // 		$('.tabs').on('show.bs.tab', function (e) {    	
+            //   if (e.relatedTarget === undefined) {    
+            //     $($(e.target).attr('href')).slideDown('slow');
+            //   }
+            //   else {
+            //     $($(e.relatedTarget).attr('href')).slideUp({ duration: 'fast', queue: true,
+            //       done: function() {
+            //         $($(e.target).attr('href')).slideDown('slow');
+            //       }
+            //     });
+            //   }	
+            // });
+            AOS.init({
+                offset: 100,
+                duration: 1000,
+            });
 
-        function setContent(id) {
+            function setContent(id) {
 
-            const elt = document.querySelector(`[data-content='${id}']`)
-            const contents = document.querySelectorAll(`.side-content`)
-            contents.forEach(x => {
-                x.classList.add("d-none ")
-            })
-            elt.classList.remove("d-none ")
-        }
-    </script>
+                const elt = document.querySelector(`[data-content='${id}']`)
+                const contents = document.querySelectorAll(`.side-content`)
+                contents.forEach(x => {
+                    x.classList.add("d-none ")
+                })
+                elt.classList.remove("d-none ")
+            }
+        </script>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
-    <script src="assets/js/jquery.js "></script>
-    <script src="assets/js/bootstrap.min.js "></script>
-    <script src="assets/js/isotope.js "></script>
-    <script src="assets/js/html5lightbox.js "></script>
-    <script src="assets/js/slick.min.js "></script>
-    <script src="assets/js/tweenMax.js "></script>
-    <script src="assets/js/wow.min.js "></script>
-    <script src="assets/js/scripts.js "></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+        <script src="assets/js/jquery.js "></script>
+        <script src="assets/js/bootstrap.min.js "></script>
+        <script src="assets/js/isotope.js "></script>
+        <script src="assets/js/html5lightbox.js "></script>
+        <script src="assets/js/slick.min.js "></script>
+        <script src="assets/js/tweenMax.js "></script>
+        <script src="assets/js/wow.min.js "></script>
+        <script src="assets/js/scripts.js "></script>
 
 
 </body>
