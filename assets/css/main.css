@@ -4208,3 +4208,19 @@ opacity: 0.97;
     visibility: visible;
     width:100px;
 }
+
+.side-content .bg-transparent_{
+    background: #EC3944 0% 0% no-repeat padding-box;
+border-radius: 10px 10px 0px 0px;
+opacity: 1;
+}
+.side-content .card-footer {
+    text-align: left;
+font: normal normal 600 15px/20px Open Sans;
+letter-spacing: 0px;
+color: #EC3944;
+opacity: 1;
+}
+.side-content .card-footer {
+    border-top: 1px rgb(226, 209, 209) solid;
+}
