@@ -2785,6 +2785,24 @@ footer .bottom-footer .social-links {
     visibility: visible;
     width:100px;
 }
+.class-gallery-section  ul li .nav-link_:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #EC3944;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.class-gallery-section  ul li .active:before,
+.class-gallery-section  ul li .nav-link_:hover:before {
+    opacity: 1;
+    visibility: visible;
+    width:70px;
+}
 
 .class-gallery .tab-content {
     padding: 30px 0px;
@@ -2840,7 +2858,7 @@ footer .bottom-footer .social-links {
     display: inline-block!important;
     border-radius: 0px;
     color: #000;
-    font-size: 13px;   
+    font-size: 14px;   
     border: none;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
@@ -3465,7 +3483,7 @@ opacity: 1;
     background-color: #e7505a;
 }
 .bar-section{
-    max-width: 1100px;
+    max-width: 1000px;
     margin-bottom: 50px;
 }
 .bar-section .bg-red{
@@ -3493,7 +3511,7 @@ border-bottom-left-radius: 12px;
 
 .bg-red .apply-now {
     background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 27px;
+border-radius: 5px;
 opacity: 1;
 text-align: center;
 letter-spacing: 0px;
@@ -4076,6 +4094,17 @@ opacity: 1;
 width: 255px;
 height: 50px;
 }
+.btn-sacademy2 {
+    background: #EC3944 0% 0% no-repeat padding-box;
+border-radius: 10px;
+font-family: 'Poppins', sans-serif;
+font-weight:  500;
+font-size: 18px;
+color: white;
+opacity: 1;
+width: 271px;
+height: 50px;
+}
 
 .card-header .text1{
     font-family: 'Poppins', sans-serif;
@@ -4133,5 +4162,49 @@ opacity: 1;
 .course-card {
     background: #FFFFFF 0% 0% no-repeat padding-box;
 box-shadow: 0px 12px 12px #00000029;
-opacity: 1
+opacity: 1;
+margin: 0px 0px 17px;
+}
+
+.course_ .h1__ {
+    text-align: center;
+font: normal normal medium 30px/22px Poppins;
+letter-spacing: 0px;
+color: #2B2B2B;
+opacity: 1;
+}
+
+.course-card h1 {
+    text-align: left;
+font: normal normal 600 17px/21px Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.course-card p {
+    text-align: left;
+font: normal normal normal 12px/20px Open Sans;
+letter-spacing: 0px;
+color: #676262;
+opacity: 0.97;
+}
+
+
+.course-sidebar  span:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #EC3944;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.course-sidebar  span.active:before,
+.course-sidebar  span:hover:before {
+    opacity: 1;
+    visibility: visible;
+    width:100px;
 }

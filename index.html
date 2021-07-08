@@ -14,9 +14,39 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">	
 </head>
 
+<style>
+	.side-content-main{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+height: 100%;
+
+}
+.side-content-main h3 {
+	
+font: normal normal 600 18px/22px Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.side-content-main span {
+	text-align: center;
+font: normal normal normal 15px/22px Open Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.side-content-main .ptag {
+	text-align: left;
+font: normal normal normal 15px/20px Open Sans;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+</style>
 
 <body>
 
@@ -197,13 +227,65 @@
 		</section><!--about-us-section end-->
 
 		<section class="classes-section">
-			<div class="container">
+			<div class="container px-4">
 				<div class="sec-title courses-sec pt-3">
 					<h2 class="pt-5 mt-5">Discover Our Courses</h2>
 					<p>Best Instructor-Led Trainings Powered By Unrivaled Courseware & Exceptional Instructors In A Professional Hands-On Training Environment.</p>
-				</div><!--sec-title end-->
-				<div class="classes-sec"> 
-					<!-- classes-carousel -->
+				</div>
+				<div class="row">
+					<div class="col-md-3 course-sidebar">
+					
+						<div onclick="setContent(1)" class="course-cover p-3">
+							<span class="active">Industrial Automation</span>
+						</div>
+						<div onclick="setContent(2)" class="course-cover p-3">
+							<span>Programming</span>
+						</div>
+						<div onclick="setContent(3)" class="course-cover p-3">
+							<span>Data Science</span>
+						</div>
+						<div onclick="setContent(4)" class="course-cover p-3">
+							<span>Cyber Security</span>
+						</div>
+					</div>
+
+
+					<div class="col-md-9">
+						<div class=" p-lg-4">
+						<div class="side-content" id="content-1" data-content="1">
+						<div class="col-md-12 side-content-main">
+							<h3 class="pt-3">Industrial Automation</h3>
+							<p class="pt-2 pb-3 ptag">Basic foundation of coding in Java/Python/C++. Ideal for students who are in 1st/2nd years of college or have ample till placements Basic foundation of coding in Java/Python/C++. Ideal for students who are in 1st/2nd years of college or have ample till placements.</p>
+						</div>
+						
+						</div>
+
+
+						<div id="content-2" data-content="2" class="side-content d-none col-md-12">
+							<div class="col-md-12 side-content-main">
+								<h3 class="pt-3">Programming</h3>
+								<p class="pt-2 pb-3 ptag">Basic foundation of coding in Java/Python/C++. Ideal for students who are in 1st/2nd years of college or have ample till placements Basic foundation of coding in Java/Python/C++. Ideal for students who are in 1st/2nd years of college or have ample till placements.</p>
+							</div>
+						</div>
+
+						<div id="content-3" data-content="3" class="side-content d-none col-md-12">
+							<div class="col-md-12 side-content-main">
+								<h3 class="pt-3">Data Science</h3>
+								<p class="pt-2 pb-3 ptag">Basic foundation of coding in Java/Python/C++. Ideal for students who are in 1st/2nd years of college or have ample till placements Basic foundation of coding in Java/Python/C++. Ideal for students who are in 1st/2nd years of college or have ample till placements.</p>
+							</div>
+						</div>
+
+						<div id="content-4" data-content="4" class="side-content d-none col-md-12">
+							<div class="col-md-12 side-content-main">
+								<h3 class="pt-3">Cyber Security</h3>
+								<p class="pt-2 pb-3 ptag">Basic foundation of coding in Java/Python/C++. Ideal for students who are in 1st/2nd years of college or have ample till placements Basic foundation of coding in Java/Python/C++. Ideal for students who are in 1st/2nd years of college or have ample till placements.</p>
+							</div>
+						</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- <div class="classes-sec"> 
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="classes-col wow fadeInUp" data-wow-duration="1000ms">
@@ -228,11 +310,11 @@
 											<h3>Part-time (6 Months)</h3>
 											<p>Virtual Class and Physical Lab <br> Work</p>
 										</div>
-										<!-- <strong class="price">$45</strong> -->
+									
 										<button class="price"> <a href="/full-stack-industrial.html">Learn More</a></button>
 									</div>
 								</div>
-							</div><!--classes-col end-->
+							</div>
 						</div>
 
 						<div class="col-lg-6">
@@ -257,11 +339,11 @@
 											<h3>Part-time (6 Months)</h3>
 											<p>Virtual Class and Physical Lab <br> Work</p>
 										</div>
-										<!-- <strong class="price">$45</strong> -->
+										
 										<button class="price"> <a href="/full-stack-web.html">Learn More</a></button>
 									</div>
 								</div>
-							</div><!--classes-col end-->
+							</div>
 						</div>
 
 						<div class="col-lg-6">
@@ -286,11 +368,11 @@
 											<h3>Part-time (6 Months)</h3>
 											<p>Virtual Class and Physical Lab <br> Work</p>
 										</div>
-										<!-- <strong class="price">$45</strong> -->
+										
 										<button class="price"> <a href="/full-stack-tot.html">Learn More</a></button>
 									</div>
 								</div>
-							</div><!--classes-col end-->
+							</div>
 						</div>
 
 						<div class="col-lg-6">
@@ -316,18 +398,18 @@
 											<h3>Part-time (6 Months)</h3>
 											<p>Virtual Class and Physical Lab <br> Work</p>
 										</div>
-										<!-- <strong class="price">$45</strong> -->
+										
 										<button class="price"> <a href="/full-stack-mobile.html">Learn More</a></button>
 									</div>
 								</div>
-							</div><!--classes-col end-->
+							</div>
 						</div>
 					
 						
 					
 					</div>
 				
-				</div><!--classes-sec end-->
+				</div> -->
 			</div>
 		</section>
 
@@ -338,7 +420,7 @@
 					<h4 class="pb-3 pt-2">An immersive Experience</h4>
 					<p class="text-white">Starting from scratch or you are already in the industry but want to hit the elite stage? No issues, we’ll help you get the skill and experience you need to stand out and get recruited! and we also give you 1-on-1 hands-on assistance to get to the top level in the industry! Our one-of-a-kind and foundational teaching approach enables students to thrive. In all Programs  We provide our students with the tools they need to launch their careers in the engineering and tech space.
 					</h6>
-					<button class="btn apply-now mt-3">Apply now</button>
+					<button class="btn apply-now mt-3 mb-3">Apply now</button>
 				</div>
 				<div class="col-md-6 img-side">
 				</div>
@@ -707,6 +789,16 @@
       offset: 100,
       duration: 1000,
     });
+
+	function setContent(id) {
+		
+		const elt = document.querySelector(`[data-content='${id}']`)
+		const contents = document.querySelectorAll(`.side-content`)
+		contents.forEach(x => {
+			x.classList.add("d-none")
+		})
+		elt.classList.remove("d-none")
+	}
 	</script>
 
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
