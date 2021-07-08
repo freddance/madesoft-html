@@ -4190,24 +4190,7 @@ opacity: 0.97;
 }
 
 
-.course-sidebar  span:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    width: 0;
-    height: 3px;
-    background-color: #EC3944;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.4s ease-in-out;
-}
 
-.course-sidebar  span.active:before,
-.course-sidebar  span:hover:before {
-    opacity: 1;
-    visibility: visible;
-    width:100px;
-}
 
 .side-content .bg-transparent_{
     background: #EC3944 0% 0% no-repeat padding-box;
@@ -4223,4 +4206,11 @@ opacity: 1;
 }
 .side-content .card-footer {
     border-top: 1px rgb(226, 209, 209) solid;
+}
+.side-content .card-text {
+    
+font: normal normal normal 13px/18px Open Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
 }
