@@ -90,6 +90,7 @@ video {
     padding: 0;
     border: 0;
     font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
     font: inherit;
     vertical-align: baseline;
 }
@@ -4819,4 +4820,18 @@ section a:hover ~ .content,
 
 .active-cover span {
     color: white !important;
+}
+.card-title  {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.btn {
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-blue{
+    background-color: #0F69A6;
+    color: #fff;
+}
+.btn-xl{
+    padding: 0.75rem 4rem;
 }
