@@ -488,7 +488,7 @@ header .navigation-bar nav ul .ul {
     width: 510px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
+    border-radius: 4px;
     margin-top: 15px;
     padding: 20px;
     z-index: 999999;
@@ -3423,28 +3423,24 @@ footer .bottom-footer .social-links {
 }
 
 .contact-form input, .contact-form textarea, .contact-form .form-control:focus {
-    font-size: 15px;
-    background-color: rgba(0, 0, 0, 0.05);
-    color: #000;
-    border-radius: 0;
-    border: none;
-    padding: 1.0rem 1rem;
-    margin: 0px 0px 17px;
-    width: 322px;
-    font-family: 'Poppins', sans-serif;
-    background: #E7EDF1 0% 0% no-repeat padding-box;
-    border-radius: 20px;
-    opacity: 1;
+    width: 100%;
+    text-align: left;
+    background: #F5F5F5 !important;
+    border: none !important;
+    padding: 2px 32px 2px 8px;
+    height: 50px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .contact-head {
     background: rgba(236, 57, 68) 0% 0% no-repeat padding-box;
-    border-radius: 20px 20px 0px 0px;
-    border-radius: 12px;
+    border-radius: 10px 10px 0px 0px;
     width: 373px;
     margin-left: -22px;
-    border-radius: 10px;
     margin-bottom: 20px;
+    padding: 1rem;
 }
 
 .contact-head h5 {
@@ -4650,6 +4646,7 @@ section a:hover ~ .content,
 .course-cover {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 5px;
+    box-shadow: -1px 9px 18px rgb(21 11 35 / 10%);
     opacity: 1;
     text-align: center;
     cursor: pointer;
@@ -4812,12 +4809,13 @@ section a:hover ~ .content,
     color: #000000;
     opacity: 1;
 }
+
 .side-content .card-title {
 
     font: normal normal 600 13px/20px Open Sans;
-letter-spacing: 0px;
-color: #2B2B2B;
-opacity: 1;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
 }
 
 .active-cover {
@@ -4828,17 +4826,66 @@ opacity: 1;
 .active-cover span {
     color: white !important;
 }
-.card-title  {
+
+.card-title {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
+
 .btn {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
+    line-height: initial !important;
 }
-.btn-blue{
+
+.btn-blue {
     background-color: #0F69A6;
     color: #fff;
 }
-.btn-xl{
+
+.btn-red {
+    background-color: #ec3944;
+    color: #fff;
+}
+
+.btn-xl {
     padding: 0.75rem 4rem;
+}
+
+.tabs .nav-tabs .nav-link_ {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.tabs .nav > li > a {
+    padding: 1px 4px 12px !important;
+    width: fit-content;
+    margin-bottom: 2px;
+}
+
+.tabs .nav-tabs {
+    padding: 0;
+}
+
+.tabs .nav-tabs {
+    margin-bottom: 1rem;
+}
+
+.tabs .nav-tabs .nav-item {
+    width: fit-content;
+    margin-top: 1rem;
+}
+
+.card {
+    background-color: #fefefe;
+    box-shadow: -1px 9px 18px rgb(21 11 35 / 10%);
+    border-radius: 10px;
+}
+
+.class-sidebar .widget-information {
+    border-radius: 10px;
+}
+
+.class-sidebar .widget-information {
+    background: #FCFCFC;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
 }
