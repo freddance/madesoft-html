@@ -4929,3 +4929,6 @@ section a:hover ~ .content,
 .bg-blue:hover, .bg-red:hover {
     color: #fff !important;
 }
+.class-gallery-section ul li .active:before, .class-gallery-section ul li .nav-link_:hover:before{
+    width: 40px;
+}
