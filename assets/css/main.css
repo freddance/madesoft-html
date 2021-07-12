@@ -536,7 +536,7 @@ header .navigation-bar nav ul ul ul {
 .main-section,
 .main-section .elements-bg {
     background-repeat: no-repeat;
-    background-position: 100% 0;
+    background-position: 114% 100%;
 }
 
 .main-section .elements-bg {
@@ -560,7 +560,10 @@ header .navigation-bar nav ul ul ul {
 }
 
 .main-banner {
-    padding: 64px 0;
+    padding: 21px 0;
+}
+p, div {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .main-banner .banner-text > h2 {
@@ -826,7 +829,7 @@ header .navigation-bar nav ul ul ul {
         position: relative;
         top: 60px;
         margin-bottom: 95px;
-        left: 50px;
+        /*left: 50px;*/
     }
 }
 
@@ -3397,7 +3400,6 @@ footer .bottom-footer .social-links {
 .class-sidebar {
     position: relative;
     top: 80px;
-    left: 30px;
     max-width: 703px;
     width: 370px;
     margin-left: auto;
@@ -3437,10 +3439,11 @@ footer .bottom-footer .social-links {
 .contact-head {
     background: rgba(236, 57, 68) 0% 0% no-repeat padding-box;
     border-radius: 10px 10px 0px 0px;
-    width: 373px;
-    margin-left: -22px;
+    width: 100%;
     margin-bottom: 20px;
     padding: 1rem;
+    position: absolute;
+    left: 0;
 }
 
 .contact-head h5 {
@@ -4060,6 +4063,12 @@ footer .bottom-footer .social-links {
     border-bottom-left-radius: 12px;
 }
 
+@media all and (max-width: 640px) {
+    .bar-section .bg-red {
+        border-radius: 8px;
+    }
+}
+
 .bg-red p {
     font-family: 'Poppins', sans-serif;
 }
@@ -4082,10 +4091,8 @@ footer .bottom-footer .social-links {
     text-align: center;
     letter-spacing: 0px;
     color: #202020;
-    opacity: 1;
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
     padding: 10px 40px 10px;
 }
 
@@ -4891,7 +4898,7 @@ section a:hover ~ .content,
 }
 
 .open-sans {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .tag {
@@ -4929,6 +4936,7 @@ section a:hover ~ .content,
 .bg-blue:hover, .bg-red:hover {
     color: #fff !important;
 }
-.class-gallery-section ul li .active:before, .class-gallery-section ul li .nav-link_:hover:before{
+
+.class-gallery-section ul li .active:before, .class-gallery-section ul li .nav-link_:hover:before {
     width: 40px;
 }
