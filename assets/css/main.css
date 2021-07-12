@@ -2869,6 +2869,7 @@ footer .bottom-footer .social-links {
     visibility: visible;
     transform: translateX(0);
     z-index: 999999;
+    width: 10vw;
 }
 
 .responsive-menu ul li {
