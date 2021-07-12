@@ -10,8 +10,8 @@
     <link rel="icon" href="assets/img/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -57,6 +57,12 @@
         letter-spacing: 0;
         color: #707070;
         opacity: 1;
+    }
+
+    .side-content-mob {
+        height: 0;
+        overflow: hidden;
+        transition: height .4s ease-in-out;
     }
 </style>
 
@@ -215,8 +221,9 @@
 
 <section class="mt-5 pt-md-5">
     <div class="container course-page p-3 p-lg-5">
-        <div class="row mx-0">
+        <div class="row d-none d-md-block mx-0">
             <h1 class="mb-5 pb-3">Why should I learn Competitive Programming?</h1>
+
 
             <div class="col-md-3 mb-4 course-sidebar">
                 <div onclick="setContent(1)" class="course-cover active-cover p-3">
@@ -934,7 +941,752 @@
                 </div>
             </div>
         </div>
+        <div class="row mx-0 d-md-none">
+            <h1 class="mb-5 pb-3">Why should I learn Competitive Programming?</h1>
 
+
+            <div class="col-md-3 mb-4 course-sidebar">
+                <div class="side-mobile">
+                    <div onclick="showDropdown(1)" class="course-cover active-cover p-3">
+                        <span>Course Detail</span>
+                    </div>
+                    <div class="side-content-mob" id="content-mob-1">
+                        <div class="side-content-mob-inner">
+                            <div class="col-md-12">
+                                <p class="pt-4 ptag">The goal of this 6 Months full-time program is to turn you into a
+                                    fully
+                                    operational Full Stack Industrial Automation & PLCs Programmer. Graduates of this
+                                    course
+                                    typically find employment as Automation or PLCs Engineer within a very short time
+                                    frame.</p>
+                                <p class="pt-4 mt-2 ptag">The lessons taught cover a diverse set of technologies which
+                                    make
+                                    for the perfect springboard onto the automation scene.</p>
+                            </div>
+
+                            <div class="row change-section">
+                                <div class="d-flex mt-5 ml-3">
+                                    <div>
+                                        <h2 class="mb-3">Modules Covered</h2>
+                                    </div>
+                                    <div class="d-flex ml-auto mr-5">
+                                        <a href="" style="color: #EC3944;">Download Syllabus</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ml-3">
+                                    <div class="d-flex">
+                                        <div>
+                                            <i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="ml-3 pt-1">HMI</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div>
+                                            <i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="ml-3 pt-1">Scada Systems</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div>
+                                            <i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="ml-3 pt-1">Digital electronic</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div>
+                                            <i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="ml-3 pt-1">PLCs programming</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div>
+                                            <i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="ml-3 pt-1">Industrial Automations</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 pb-5">
+                                <p class="pt-4">
+                                    Through an advanced curriculum and project-based structure, students learn today’s
+                                    cutting-edge automation technologies. Become a ready-to-hire Automation or PLCs
+                                    Engineer
+                                    in just 6 Months. After 3 Months of Virtual Classroom training, you will spend 3
+                                    Months
+                                    on Project Based Learning where you will learn the fundamentals of participating in
+                                    a
+                                    real life project – In addition you will learn using Studio 5000 for Allen Bradley
+                                    Controllogix & Siemens Simatic TIA Portal for Siemens S7 PLCs
+                                </p>
+                            </div>
+
+                            <div class="">
+                                <div class="col-md-6 mb-4">
+                                    <div class="card border-0 mb-3" style="max-width: 18rem; background: #FFFFFF 0% 0% no-repeat padding-box;
+								box-shadow: 0px 3px 6px #00000029;
+								border-radius: 10px;
+								opacity: 1;">
+                                        <div class="card-header bg-red bg-transparent_">
+                                            <div class="text-white tag small text1">Next Batch</div>
+                                            <div class="text-white open-sans h4">September 1st</div>
+                                        </div>
+                                        <div class="p-3 text-center text-dark">
+                                            <div class="h2 font-weight-bold open-sans">
+                                                $800
+                                            </div>
+                                            <div class="h6 open-sans">
+                                                ₦400,000
+                                            </div>
+                                        </div>
+                                        <div class="card-footer p-3 bg-transparent text-center">Proceed to <span
+                                                class="apply" style="
+										text-align: center;
+
+										font-weight: 500;
+										font-size: 16px;
+										letter-spacing: 0px;
+										color: #EC3944;">Apply</span></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-4">
+                                    <div class="card border-0 mb-3" style="max-width: 18rem; background: #FFFFFF 0% 0% no-repeat padding-box;
+								box-shadow: 0px 3px 6px #00000029;
+								border-radius: 10px;
+								opacity: 1;">
+                                        <div class="card-header bg-blue bg-transparent_">
+                                            <div class="text-white small tag text1">Next Batch</div>
+                                            <div class="text-white open-sans h4">September 1st</div>
+                                        </div>
+                                        <div class="p-3 text-center text-dark">
+                                            <div class="h2 font-weight-bold open-sans">
+                                                $800
+                                            </div>
+                                            <div class="h6 open-sans">
+                                                ₦400,000
+                                            </div>
+                                        </div>
+                                        <div class="card-footer text-primary p-3 bg-transparent text-center">Proceed to
+                                            <span
+                                                    class="apply"
+                                                    style="text-align: center;font-weight: 500;font-size: 16px;		letter-spacing: 0px;">Apply</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 pt-3 pb-4">
+                                    <h1>Find more batch dates which suit your schedule <span style="text-align: center;
+									font: normal normal 600 19px/22px Poppins;
+									letter-spacing: 0px;
+									color: #EC3944;">View more batches</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="side-mobile">
+                    <div onclick="showDropdown(2)" class="course-cover p-3">
+                        <span>Curriculum</span>
+                    </div>
+                    <div class="side-content-mob" id="content-mob-2">
+                        <div class="side-content-mob-inner">
+
+                            <div class="col-md-12">
+                                <p class="pt-4 ptag">Through an advanced curriculum and project-based structure,
+                                    students
+                                    learn today’s cutting-edge Automation technologies. Our curriculum provides an
+                                    indept
+                                    learning to Industrial Automation including digital electronic, programming of PLCs,
+                                    Human Machine Interface (HMI) & SCADA systems.</p>
+
+                                <div class="">
+                                    <section class="class-gallery-section class-gallery-section1 container">
+
+                                        <div class="tabs class-gallery">
+                                            <ul class="nav d-flex justify-content-between small nav-tabs" id="myTab"
+                                                role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active nav-link_" data-toggle="tab" href="#plc"
+                                                       role="tab" aria-controls="home">PLC</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link nav-link_" data-toggle="tab" href="#hmi"
+                                                       role="tab" aria-controls="profile">HMI</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link nav-link_" data-toggle="tab"
+                                                       href="#industrial-communication"
+                                                       role="tab" aria-controls="messages">Industrial Communication </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link nav-link_" data-toggle="tab" href="#scada"
+                                                       role="tab" aria-controls="settings">SCADA</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link nav-link_" data-toggle="tab"
+                                                       href="#introduction-to-dcs"
+                                                       role="tab" aria-controls="settings">Introduction to DCS</a>
+                                                </li>
+                                            </ul>
+
+                                            <div class="tab-content row mt-4">
+                                                <div class="tab-pane active" id="plc" role="tabpanel">
+                                                    <div class="col-md-7">
+                                                        <h6 class="mb-3">PLC</h6>
+                                                        <h3 class="mb-3">PLC Overview & Hardware Components</h3>
+
+                                                        <p>PLC Overview & Hardware Components, Number Systems and Codes,
+                                                            Fundamentals of Logic, Basics of PLC Programming Developing
+                                                            Fundamental PLC Wiring Diagrams and Ladder Logic Programs,
+                                                            Programming Timers, Programming Counters, Program Control
+                                                            Instructions, Data Manipulation Instructions, Math
+                                                            Instructions,
+                                                            Sequencer and Shift Register Instructions, PLC Installation
+                                                            Practices, Editing, and Troubleshooting</p>
+                                                    </div>
+
+                                                    <div class="col-md-5">
+                                                        <img src="/assets/img/guided program.png" class="img-fluid"
+                                                             alt="">
+                                                    </div>
+                                                </div>
+
+                                                <div class="tab-pane wow fadeInUp" id="hmi" role="tabpanel"
+                                                     data-wow-duration="1000ms">
+                                                    <div class="col-md-7">
+                                                        <h6 class="mb-3">HMI</h6>
+                                                        <h3 class="mb-3">HMI Display Design</h3>
+                                                        <p>HMI Display Design, HMI Display Color Guidelines, HMI Display
+                                                            Navigation HMI File and Object Naming Conventions, Alarm &
+                                                            Event
+                                                            Views, HMI Display Scripting, Introduction FactoryTalk,
+                                                            Ignition
+                                                            & WinCC HMI Display Building Platforms</p>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <img src="/assets/img/doubt resolution.png" class="img-fluid"
+                                                             alt="">
+                                                    </div>
+                                                </div>
+
+                                                <div class="tab-pane wow fadeInUp" id="industrial-communication"
+                                                     role="tabpanel"
+                                                     data-wow-duration="1000ms">
+                                                    <div class="col-md-7 ">
+                                                        <h3 class="mb-3">Industrial Communication</h3>
+                                                        <p>EtherNet/IP Modbus, OPC, DeviceNet, ControlNet, Fieldbus –
+                                                            Intro,
+                                                            PROFIBUS-DP - Intro</p>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <img src="/assets/img/mentorship.png" class="img-fluid" alt="">
+                                                    </div>
+                                                </div>
+
+                                                <div class="tab-pane wow fadeInUp" id="scada" role="tabpanel"
+                                                     data-wow-duration="1000ms">
+                                                    <div class="col-md-7 ">
+                                                        <h3 class="mb-3">SCADA</h3>
+                                                        <p>Remote Telemetry Units (RTUs), Human Machine Interface,
+                                                            Communications Network, Introduction to Ignition SCADA,
+                                                            Introduction to Open Source SCADA</p>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <img src="/assets/img/unlimited resources.png" class="img-fluid"
+                                                             alt="">
+                                                    </div>
+                                                </div>
+
+                                                <div class="tab-pane wow fadeInUp" id="introduction-to-dcs"
+                                                     role="tabpanel"
+                                                     data-wow-duration="1000ms">
+                                                    <div class="col-md-7 ">
+                                                        <h3 class="mb-3">Introduction to DCS</h3>
+                                                        <p>This module is intended to familiarize the student with the
+                                                            most
+                                                            important aspects of Distributed Control Systems. Topics
+                                                            covered
+                                                            in the module include DCS Controllers, DCS I/Os, HMIs & DCS
+                                                            Control Network.</p>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <img src="/assets/img/unlimited resources.png" class="img-fluid"
+                                                             alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+
+                                <p class="mb-3 ptag">
+                                    You bring the energy, curiosity, and dedication, and we'll provide a world-class
+                                    school
+                                    for becoming an expert Automation or PLC Engineer.
+                                </p>
+                            </div>
+                            <div class="">
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <div class="text-danger small text1">Next Batch</div>
+                                            <div class="text-primary text2">September 1st</div>
+                                        </div>
+                                        <div class="card-body mt-4">
+                                            <div class="dollar">
+                                                $800 <span>or</span> <span class="span2">#400,000</span>
+                                            </div>
+                                        </div>
+                                        <h1 class="ml-4 mt-4 mb-5">Proceed to <span class="apply" style="
+											text-align: center;
+
+											font-weight: 500;
+											font-size: 16px;
+											letter-spacing: 0px;
+											color: #EC3944;">Apply</span></h1>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <div class="text-danger small text1">Next Batch</div>
+                                            <div class="text-primary text2">September 1st</div>
+                                        </div>
+                                        <div class="card-body mt-4">
+                                            <div class="dollar">
+                                                $800 <span>or</span> <span class="span2">#400,000</span>
+                                            </div>
+                                        </div>
+                                        <h1 class="ml-4 mt-4 mb-5">Proceed to <span class="apply" style="
+											text-align: center;
+
+											font-weight: 500;
+											font-size: 16px;
+											letter-spacing: 0px;
+											color: #EC3944;">Apply</span></h1>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 pt-3 pb-">
+                                    <h1>Find more batch dates which suit your schedule <span style="text-align: center;
+										font: normal normal 600 19px/22px Poppins;
+										letter-spacing: 0px;
+										color: #EC3944;">View more batches</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div onclick="showDropdown(3)" class="course-cover p-3">
+                    <span>Tuition and Finance</span>
+                </div>
+                <div onclick="showDropdown(4)" class="course-cover p-3">
+                    <span>Course Structure</span>
+                </div>
+                <div onclick="showDropdown(5)" class="course-cover p-3">
+                    <span>Admission</span>
+                </div>
+                <div onclick="showDropdown(6)" class="course-cover p-3">
+                    <span>FAQ</span>
+                </div>
+                <div class="mt-5 px-3">
+                    <button class="btn w-100 py-2 bg-blue mt-2" type="submit" value="Send">Download Syllabus</button>
+                </div>
+                <div class="px-3">
+                    <button class="btn w-100 py-2 bg-blue  mt-2" type="submit" value="Send">Apply</button>
+                </div>
+            </div>
+
+
+            <div class="col-md-9">
+                <div class="side-content-main p-4">
+                    <div class="row mx-0 w-100 justify-content-between mt-3">
+                        <div class="col-6 col-md-2 mb-2">
+                            <div class="d-flex ml-2">
+                                <div>
+                                    <img src="/assets/img/time.png" width="22" class="img-fluid" alt="">
+                                </div>
+                                <h3 class="pl-1">6</h3>
+                            </div>
+                            <span>Months</span>
+                        </div>
+                        <div class="col-6 col-md-2 mb-2">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="/assets/img/live.png" width="22" class="img-fluid" alt="">
+                                </div>
+                                <h3 class="pl-1">Live</h3>
+                            </div>
+                            <span>Classes</span>
+                        </div>
+                        <div class="col-6 col-md-2 mb-2 ">
+                            <div class="d-flex ml-2">
+                                <div>
+                                    <img src="/assets/img/case-study.png" width="25" class="img-fluid" alt="">
+                                </div>
+                                <h3 class="pl-1">10</h3>
+                            </div>
+                            <span>Case studies</span>
+                        </div>
+                        <div class="col-6 col-md-2 mb-2 ">
+                            <div class="d-flex ml-2">
+                                <div>
+                                    <img src="/assets/img/assingment.png" width="20" class="img-fluid" alt="">
+                                </div>
+                                <h3 class="pl-1">15</h3>
+                            </div>
+                            <span>Assignments</span>
+                        </div>
+                        <div class="col-6 col-md-2 mb-2 ">
+                            <div class="d-flex ml-2">
+                                <div>
+                                    <img src="/assets/img/livemen.png" width="20" class="img-fluid" alt="">
+                                </div>
+                                <h3 class="pl-1">Live</h3>
+                            </div>
+                            <span>Mentorship</span>
+                        </div>
+                    </div>
+
+
+                    <div id="content-3" data-content="3" class="side-content d-none col-md-12">
+                        <div class="pt-4 open-sans">
+                            <p>
+                                Through an advanced curriculum and project-based structure, students learn today’s
+                                cutting-edge Automation technologies. Our curriculum provides an indept learning to
+                                Industrial Automation including digital electronic, programming of PLCs, Human Machine
+                                Interface (HMI) & SCADA systems.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content-4" data-content="4" class="side-content d-none col-md-12">
+                        <div class="col-md-12">
+                            <p class="pt-4 ptag">We Adopt a school type approach where theories will be blended with
+                                practicals. Our LMS (Learning Management System) is deployed in the cloud to aid this
+                                approach. Also we provide a Library Portal loaded with tech related books and study
+                                materials for student research and private studies.</p>
+
+                            <div class="">
+                                <section class="class-gallery-section class-gallery-section1 container">
+
+                                    <div class="tabs class-gallery">
+                                        <ul class="nav nav-tabs justify-content-between" id="myTab" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active nav-link_" data-toggle="tab" href="#phase1"
+                                                   role="tab" aria-controls="home">PHASE 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link nav-link_" data-toggle="tab" href="#phase2"
+                                                   role="tab" aria-controls="profile">PHASE 2</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link nav-link_" data-toggle="tab" href="#phase3"
+                                                   role="tab" aria-controls="messages">PHASE 3</a>
+                                            </li>
+                                        </ul>
+
+                                        <div class="tab-content row mt-4">
+                                            <div class="tab-pane active" id="phase1" role="tabpanel">
+                                                <div class="col-md-7">
+                                                    <h6 class="mb-3">Well Guided Program</h6>
+                                                    <h3 class="mb-3">Live Virtual Class</h3>
+
+                                                    <p>This Phase Consist of Online live Virtual Classes, modularised
+                                                        lessons managed by Learning Management System with assignments,
+                                                        downloadable study materials and video lectures to fully engage
+                                                        the student on weekly basis.</p>
+                                                    <div class="icon_section">
+                                                        <div class="d-flex pt-3">
+                                                            <div>
+                                                                <i class="fa fa-check  icon_check"
+                                                                   aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="ml-2">
+                                                                <p class="">Lab work after each key concept is
+                                                                    taught.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex pt-2">
+                                                            <div>
+                                                                <i class="fa fa-check  icon_check"
+                                                                   aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="ml-2">
+                                                                <p class="pt-1">Instructor Guided Practicals.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex pt-2">
+                                                            <div>
+                                                                <i class="fa fa-check  icon_check"
+                                                                   aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="ml-2">
+                                                                <p class="pt-1">Performance and assessment grading based
+                                                                    on assignments and lab work.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-5">
+                                                    <img src="/assets/img/guided program.png" class="img-fluid" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="tab-pane wow fadeInUp" id="phase2" role="tabpanel"
+                                                 data-wow-duration="1000ms">
+                                                <div class="col-md-7">
+                                                    <h6 class="mb-3">Physical Lab Workshop</h6>
+                                                    <h3 class="mb-3">Physical Lab Workshop</h3>
+                                                    <p>On completion of the three months of live virtual classes and lab
+                                                        work, students are to visit any of our physical labs for a
+                                                        two-day physical workshop.</p>
+
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <img src="/assets/img/doubt resolution.png" class="img-fluid"
+                                                         alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="tab-pane wow fadeInUp" id="phase3" role="tabpanel"
+                                                 data-wow-duration="1000ms">
+                                                <div class="col-md-7 ">
+                                                    <h3 class="mb-3">Three Months Project Based Learning</h3>
+                                                    <p>The student will gain knowledge and skills by working for 3
+                                                        months to investigate and respond with a solution to an
+                                                        authentic industry-related problem. The students will engage
+                                                        with project management tools to enable them to gain an
+                                                        understanding of tasks, timelines, schedules with a project
+                                                        manager assigned.</p>
+
+                                                    <p class="pt-3">The learning will mirror what professionals do every
+                                                        day and prepares the students to accept and meet challenges in
+                                                        the real world.</p>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <img src="/assets/img/mentorship.png" class="img-fluid" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+
+                            <p class="mb-5 ptag">
+                                We offer blended training where theories are thought in classes via our Virtual Meeting
+                                Platform and practical's are done physically in our training centers. We offer our
+                                graduates project based experience in the course of their training at Madesoft Academy
+                                as such we can guarantee their work experience to potential employer.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="content-5" data-content="5" class="side-content d-none col-md-12">
+                        <div class="row change-section">
+                            <div class="d-flex mt-4 ml-4">
+                                <div>
+                                    <h2 class="mb-4">Admission Requirments</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-12 ml-3">
+                                <p class="ptag">Applicant for this course must have a minimum of Diploma in any of the
+                                    sciences or currently in an institution of Higher learning. Also Applicant without
+                                    qualification but have 1+ year working experience in the field of
+                                    electrical/electronics or computer shall be considered for a place in the
+                                    program.</p>
+                                <p class="pt-4 ptag pb-5">To participate in this program students must have a personal
+                                    computer that meets the following minimum specifications: Intel Pentium or
+                                    equivalent for Virtual Machine & Simulator
+                                </p>
+                            </div>
+                            <div class="col-md-7  ml-3">
+                                <div class="d-flex">
+                                    <div>
+                                        <i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="ml-3 pt-1">Minimum of 16 GB RAM</p>
+                                </div>
+                                <div class="d-flex">
+                                    <div>
+                                        <i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="ml-3 pt-1">250 GB of Available Disk Space</p>
+                                </div>
+                                <div class="d-flex">
+                                    <div>
+                                        <i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="ml-3 pt-1">Windows 7/ Windows8/ Windows 10</p>
+                                </div>
+                                <div class="d-flex">
+                                    <div>
+                                        <i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="ml-3 pt-1">64 Bit Compatible</p>
+                                </div>
+                                <div class="d-flex">
+                                    <div>
+                                        <i class="fa fa-check pt-2 icon_check" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="ml-3 pt-1">Good Internet Access</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="content-6" data-content="6" class="side-content d-none">
+                        <div class="col-md-12">
+                            <h1 class="mt-5 pt-4">Frequently Asked Questions</h1>
+                            <div class="mt-5">
+                                <div class="panel-group" id="faqAccordion">
+                                    <div class="panel panel-default ">
+                                        <div class="panel-heading d-flex accordion-toggle question-toggle collapsed"
+                                             data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0"
+                                             style="background-color: white; border: none!important; cursor: pointer;">
+                                            <h4 class="panel-title">
+                                                <a href="#" class="ing"> Why should i attend Fullstack Academy?</a>
+                                            </h4>
+
+                                            <div class="d-flex ml-auto">
+                                                <i class="fa fa-caret-down" style="cursor: pointer;"
+                                                   aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <div id="question0" class="panel-collapse collapse" style="height: 0px;">
+                                            <div class="panel-body">
+                                                <h5><span class="label label-primary">Answer</span></h5>
+
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been the industry's standard dummy text
+                                                    ever since the 1500s, when an unknown printer took a galley of type
+                                                    and scrambled it to make a type specimen book. It has survived not
+                                                    only five <a href="http://jquery2dotnet.com/"
+                                                                 class="label label-success">http://jquery2dotnet.com/</a>
+                                                    centuries, but also the leap into electronic typesetting, remaining
+                                                    essentially unchanged. It was popularised in the 1960s with the
+                                                    release of Letraset sheets containing Lorem Ipsum passages, and more
+                                                    recently with desktop publishing software like Aldus PageMaker
+                                                    including versions of Lorem Ipsum.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default ">
+                                        <div class="panel-heading d-flex accordion-toggle collapsed question-toggle"
+                                             data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1"
+                                             style="background-color: white; border: none!important; cursor: pointer;">
+                                            <h4 class="panel-title">
+                                                <a href="#" class="ing"><a href="#" class="ing"> Why Fullstack
+                                                    Javascript?</a>
+                                            </h4>
+
+                                            <div class="d-flex ml-auto">
+                                                <i class="fa fa-caret-down" style="cursor: pointer;"
+                                                   aria-hidden="true"></i>
+                                            </div>
+
+                                        </div>
+                                        <div id="question1" class="panel-collapse collapse" style="height: 0px;">
+                                            <div class="panel-body">
+                                                <h5><span class="label label-primary">Answer</span></h5>
+
+                                                <p>It is a long established fact that a reader will be distracted by the
+                                                    readable content of a page when looking at its layout. The point of
+                                                    using Lorem Ipsum is that it has a more-or-less normal distribution
+                                                    of letters, as opposed to using 'Content here, content here', making
+                                                    it look like readable English. Many desktop publishing packages and
+                                                    web page editors now use Lorem Ipsum as their default model text,
+                                                    and a search for 'lorem ipsum' will uncover many web sites still in
+                                                    their infancy. Various versions have evolved over the years,
+                                                    sometimes by accident, sometimes on purpose (injected humour and the
+                                                    like).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default ">
+                                        <div class="panel-heading d-flex accordion-toggle collapsed question-toggle"
+                                             data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2"
+                                             style="background-color: white; border: none!important; cursor: pointer;">
+                                            <h4 class="panel-title">
+                                                <a href="#" class="ing"><a href="#" class="ing">Do you accept the new GI
+                                                    Bill (for venterans?)</a>
+                                            </h4>
+
+
+                                            <div class="d-flex ml-auto">
+                                                <i class="fa fa-caret-down" style="cursor: pointer;"
+                                                   aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <div id="question2" class="panel-collapse collapse" style="height: 0px;">
+                                            <div class="panel-body">
+                                                <h5><span class="label label-primary">Answer</span></h5>
+
+                                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                                    has roots in a piece of classical Latin literature from 45 BC,
+                                                    making it over 2000 years old. Richard McClintock, a Latin professor
+                                                    at Hampden-Sydney College in Virginia, looked up one of the more
+                                                    obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+                                                    going through the cites of the word in classical literature,
+                                                    discovered the undoubtable source. Lorem Ipsum comes from sections
+                                                    1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
+                                                    of Good and Evil) by Cicero, written in 45 BC. This book is a
+                                                    treatise on the theory of ethics, very popular during the
+                                                    Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+                                                    amet..", comes from a line in section 1.10.32.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading d-flex accordion-toggle collapsed question-toggle"
+                                             data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3"
+                                             style="background-color: white; border: none!important; cursor: pointer;"
+                                             title="">
+                                            <h4 class="panel-title">
+                                                <a href="#" class="ing"><a href="#" class="ing"> How dose the immersive
+                                                    program compare to online resources</a>
+                                            </h4>
+
+
+                                            <div class="d-flex ml-auto">
+                                                <i class="fa fa-caret-down" style="cursor: pointer;"
+                                                   aria-hidden="true"></i>
+                                            </div>
+
+                                        </div>
+                                        <div id="question3" class="panel-collapse collapse" style="height: 0px;">
+                                            <div class="panel-body">
+                                                <h5><span class="label label-primary">Answer</span></h5>
+
+                                                <p>There are many variations of passages of Lorem Ipsum available, but
+                                                    the majority have suffered alteration in some form, by injected
+                                                    humour, or randomised words which don't look even slightly
+                                                    believable. If you are going to use a passage of Lorem Ipsum, you
+                                                    need to be sure there isn't anything embarrassing hidden in the
+                                                    middle of text. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--/panel-group-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -1247,9 +1999,18 @@
         course_cover[id - 1].classList.add("active-cover")
     }
 
+    function showDropdown(id) {
+        const contents = document.querySelectorAll(`.side-mobile .side-content-mob`)
+        const elt = document.querySelector(`#content-mob-${id}`)
+        const inner = document.querySelector(`.side-content-mob .side-content-mob-inner`)
+        contents.forEach(x => {
+            x.style.height = '0px'
+        })
+        elt.style.height = inner.offsetHeight
+    }
+
 </script>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/isotope.js"></script>
