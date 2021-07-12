@@ -2049,7 +2049,7 @@
     function showDropdown(id) {
         const contents = document.querySelectorAll(`.side-mobile .side-content-mob`)
         const elt = document.querySelector(`#content-mob-${id}`)
-        const inner = document.querySelector(`.side-content-mob .side-content-mob-inner`)
+        const inner = document.querySelector(`.content-mob-${id} .side-content-mob-inner`)
         contents.forEach(x => {
             x.style.height = '0px'
             elt.setAttribute('style', `height: 0px; overflow: hidden`)
