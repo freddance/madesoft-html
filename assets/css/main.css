@@ -2869,11 +2869,18 @@ footer .bottom-footer .social-links {
     visibility: visible;
     transform: translateX(0);
     z-index: 999999;
-    width: 10vw;
+    width: 100vw;
 }
 
 .responsive-menu ul li {
     margin-bottom: 30px;
+}
+
+.responsive-menu .ul li a {
+    color: black;
+    font-size: 16px;
+    line-height: 15px!important;
+    visibility: visible;
 }
 
 .responsive-menu ul li:last-child {
@@ -2885,6 +2892,7 @@ footer .bottom-footer .social-links {
     font-size: 20px;
     font-weight: 500;
     font-family: Poppins, sans-serif;
+    
 }
 
 #html5-watermark {
