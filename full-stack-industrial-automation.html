@@ -947,12 +947,12 @@
 
             <div class="col-12 mb-4 course-sidebar">
                 <div class="side-mobile">
-                    <div onclick="showDropdown(1)" class="course-cover active-cover p-3">
+                    <div onclick="showDropdown(1)" class="course-cover course-cover-btn  active-cover p-3">
                         <span>Course Detail</span>
                     </div>
                     <div class="side-content-mob" id="content-mob-1">
                         <div class="side-content-mob-inner">
-                            <div class="col-md-12">
+                            <div class="">
                                 <p class="pt-4 ptag">The goal of this 6 Months full-time program is to turn you into a
                                     fully
                                     operational Full Stack Industrial Automation & PLCs Programmer. Graduates of this
@@ -1087,13 +1087,13 @@
 
                 </div>
                 <div class="side-mobile">
-                    <div onclick="showDropdown(2)" class="course-cover p-3">
+                    <div onclick="showDropdown(2)" class="course-cover course-cover-btn  p-3">
                         <span>Curriculum</span>
                     </div>
                     <div class="side-content-mob" id="content-mob-2">
                         <div class="side-content-mob-inner">
 
-                            <div class="col-md-12">
+                            <div class="">
                                 <p class="pt-4 ptag">Through an advanced curriculum and project-based structure,
                                     students
                                     learn today’s cutting-edge Automation technologies. Our curriculum provides an
@@ -1102,7 +1102,7 @@
                                     Human Machine Interface (HMI) & SCADA systems.</p>
 
                                 <div class="">
-                                    <section class="class-gallery-section class-gallery-section1 container">
+                                    <section class="class-gallery-section p-0 class-gallery-section1 container">
 
                                         <div class="tabs class-gallery">
                                             <ul class="nav d-flex justify-content-between small nav-tabs" id="myTab"
@@ -1286,7 +1286,7 @@
                     </div>
                     <div class="side-content-mob" id="content-mob-3">
                         <div class="side-content-mob-inner">
-                            <div class="col-md-12">
+                            <div class="">
                                 <div class="pt-4 open-sans">
                                     <p>
                                         Through an advanced curriculum and project-based structure, students learn
@@ -1303,12 +1303,12 @@
                     </div>
                 </div>
                 <div class="side-mobile">
-                    <div onclick="showDropdown(4)" class="course-cover p-3">
+                    <div onclick="showDropdown(4)" class="course-cover course-cover-btn  p-3">
                         <span>Course Structure</span>
                     </div>
                     <div class="side-content-mob" id="content-mob-4">
                         <div class="side-content-mob-inner">
-                            <div class="col-md-12">
+                            <div class="">
                                 <p class="pt-4 ptag">We Adopt a school type approach where theories will be blended with
                                     practicals. Our LMS (Learning Management System) is deployed in the cloud to aid
                                     this
@@ -1444,12 +1444,12 @@
                     </div>
                 </div>
                 <div class="side-mobile">
-                    <div onclick="showDropdown(5)" class="course-cover p-3">
+                    <div onclick="showDropdown(5)" class="course-cover course-cover-btn  p-3">
                         <span>Admission</span>
                     </div>
                     <div class="side-content-mob" id="content-mob-5">
                         <div class="side-content-mob-inner">
-                            <div class="col-md-12">
+                            <div class="">
                                 <div class="row change-section">
                                     <div class="d-flex mt-4 ml-4">
                                         <div>
@@ -1510,12 +1510,12 @@
 
 
                     <div class="side-mobile">
-                        <div onclick="showDropdown(6)" class="course-cover p-3">
+                        <div onclick="showDropdown(6)" class="course-cover course-cover-btn  p-3">
                             <span>FAQ</span>
                         </div>
                         <div class="side-content-mob" id="content-mob-6">
                             <div class="side-content-mob-inner">
-                                <div class="col-md-12">
+                                <div class="">
                                     <h1 class="mt-5 pt-4">Frequently Asked Questions</h1>
                                     <div class="mt-5">
                                         <div class="panel-group" id="faqAccordion">
@@ -2052,9 +2052,9 @@
         const inner = document.querySelector(`#content-mob-${id} .side-content-mob-inner`)
         contents.forEach(x => {
             x.style.height = '0px'
-            elt.setAttribute('style', `height: 0px; overflow: hidden`)
+            if (x.offsetHeight != '0') elt.setAttribute('style', `height: 0px; overflow: hidden`)
         })
-        elt.setAttribute('style', `height: ${inner.offsetHeight}px`)
+        if (elt.offsetHeight == '0') elt.setAttribute('style', `height: ${inner.offsetHeight + 20}px`)
     }
 
 </script>
